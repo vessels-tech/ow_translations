@@ -78,7 +78,7 @@ const test_UPPER: TranslationFile = {
     resource_detail_summary_tab: "",
     resource_detail_empty_heading: "",
     resource_detail_empty_hint: "",
-    new_resource_saved_dialog: "",
+    new_resource_saved_dialog: "A",
     new_resource_saved_dialog_warning: "",
     resource_name: "",
     new_resource_lat: "",
