@@ -1,4 +1,4 @@
-import { TranslationOrg, TranslationFiles, TranslationEnum, TranslationFile } from "./Types";
+import { TranslationOrg, TranslationFiles, TranslationEnum, TranslationFile, TranslationOverrideFile } from "./Types";
 /**
  * Get a list of the possible Translations for a given org
  */
@@ -19,3 +19,4 @@ export declare function translationsForTranslationOrg(orgId: TranslationOrg): Tr
  * this method is fully type safe
  */
 export declare function getTranslationForLanguage(files: TranslationFiles, language: TranslationEnum): TranslationFile;
+export { TranslationOrg, TranslationFiles, TranslationEnum, TranslationFile, TranslationOverrideFile, };
