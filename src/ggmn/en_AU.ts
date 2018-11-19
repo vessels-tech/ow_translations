@@ -25,6 +25,8 @@ const ggmn_en_AU: TranslationOverrideFile  = {
     resource_name: "Groundwater Station",
     new_resource_asset_type_label: "Asset Type",
     new_resource_submit_button: "SUBMIT",
+
+
   }
 }
 

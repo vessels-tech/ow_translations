@@ -102,7 +102,20 @@ const hi_IN: TranslationFile = {
   },
     resource_detail_heading_label: "ID: ",
     timeseries_date_format: "YYYY-MM-DD",
-    resource_detail_new_reading_button: "",
+    resource_detail_new_reading_button: "NEW READING",
+    sync_manual_text: "GROUNDWATER STATIONS NEED TO BE SYNCED MANUALLY",
+    sync_manual_show_me_how: "SHOW ME HOW",
+    sync_date_format: "YYYY-MM-DD",
+    sync_error_station_not_created: "STATION HASN'T BEEN CREATED YET.",
+    sync_error_get_timeseries_id_transport: "REQUEST FAILED OR TIMED OUT. PLEASE TRY AGAIN.",
+    sync_error_get_timeseries_id_none: "COULD NOT FIND TIMESERIES",
+    sync_error_get_timeseries_id_too_many: "COULD NOT FIND TIMESERIES",
+    sync_error_get_timeseries_id_no_timeseries: "COULD NOT FIND TIMESERIES",
+    sync_error_save_reading_not_logged_in: "YOU MUST BE LOGGED IN TO PERFORM A SYNC.",
+    sync_error_generic_transport: "REQUEST FAILED OR TIMED OUT. PLEASE TRY AGAIN.",
+    sync_error_save_reading_unknown: "AN UNKNOWN ERROR OCCOURED",
+    sync_error_delete_pending_reading: "CLEANUP ERROR",
+    sync_error_unknown: "AN UNKNOWN ERROR OCCOURED",
   }
 }
 

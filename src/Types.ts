@@ -172,6 +172,20 @@ export type TranslationFile = {
     resource_detail_heading_label: string,
     timeseries_date_format: string,
     resource_detail_new_reading_button: string,
+    sync_manual_text: string, 
+    sync_manual_show_me_how: string, 
+    sync_date_format: string,
+    sync_error_station_not_created: string,
+    sync_error_get_timeseries_id_transport: string,
+    sync_error_get_timeseries_id_none: string,
+    sync_error_get_timeseries_id_too_many: string,
+    sync_error_get_timeseries_id_no_timeseries: string,
+    sync_error_save_reading_not_logged_in: string,
+    sync_error_generic_transport: string,
+    sync_error_save_reading_unknown: string,
+    sync_error_delete_pending_reading: string,
+    sync_error_unknown: string,
+
 
   }
 }

@@ -103,6 +103,19 @@ const en_AU: TranslationFile = {
     resource_detail_heading_label: "ID: ",
     timeseries_date_format: "YYYY-MM-DD",
     resource_detail_new_reading_button: "NEW READING",
+    sync_manual_text: "Groundwater Stations need to be synced manually",
+    sync_manual_show_me_how: "Show Me How",
+    sync_date_format: "YYYY-MM-DD",
+    sync_error_station_not_created: "Station hasn't been created yet.",
+    sync_error_get_timeseries_id_transport: "Request failed or timed out. Please try again.",
+    sync_error_get_timeseries_id_none: "Could not find timeseries",
+    sync_error_get_timeseries_id_too_many: "Could not find timeseries",
+    sync_error_get_timeseries_id_no_timeseries: "Could not find timeseries",
+    sync_error_save_reading_not_logged_in: "You must be logged in to perform a sync.",
+    sync_error_generic_transport: "Request failed or timed out. Please try again.",
+    sync_error_save_reading_unknown: "An unknown error occoured",
+    sync_error_delete_pending_reading: "Cleanup error",
+    sync_error_unknown: "An unknown error occoured",
   }
 }
 
