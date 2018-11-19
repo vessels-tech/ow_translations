@@ -90,6 +90,9 @@ const en_AU: TranslationFile = {
     new_resource_id: "Id",
     new_resource_id_check_error: "Error checking the Id. Please try again.",
     new_resource_id_check_taken: "Id is not valid or already taken.",
+    qr_code_not_found: "Could not find a location from the QR Code. Please try scanning again.",
+    calendar_input_confirm: "CONFIRM",
+    calendar_input_cancel: "CANCEL",
   }
 }
 

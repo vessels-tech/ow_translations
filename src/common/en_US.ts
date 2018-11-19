@@ -90,6 +90,9 @@ const en_US: TranslationFile = {
     new_resource_id: "",
     new_resource_id_check_error: "",
     new_resource_id_check_taken: "",
+    qr_code_not_found: "",
+    calendar_input_confirm: "",
+    calendar_input_cancel: "",
   }
 }
 

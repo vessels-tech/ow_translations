@@ -78,7 +78,7 @@ const test_UPPER: TranslationFile = {
     resource_detail_summary_tab: "",
     resource_detail_empty_heading: "",
     resource_detail_empty_hint: "",
-    new_resource_saved_dialog: "A",
+    new_resource_saved_dialog: "",
     new_resource_saved_dialog_warning: "",
     resource_name: "",
     new_resource_lat: "",
@@ -90,6 +90,9 @@ const test_UPPER: TranslationFile = {
     new_resource_id: "",
     new_resource_id_check_error: "",
     new_resource_id_check_taken: "",
+    qr_code_not_found: "",
+    calendar_input_confirm: "",
+    calendar_input_cancel: "",
   }
 }
 

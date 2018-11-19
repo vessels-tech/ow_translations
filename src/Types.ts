@@ -165,5 +165,9 @@ export type TranslationFile = {
     new_resource_id: string,
     new_resource_id_check_error: string,
     new_resource_id_check_taken: string,
+    qr_code_not_found: string,
+    calendar_input_confirm: string,
+    calendar_input_cancel: string,
+
   }
 }

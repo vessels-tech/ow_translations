@@ -90,6 +90,9 @@ const es_ES: TranslationFile = {
     new_resource_id: "ID",
     new_resource_id_check_error: "ERROR CHECKING THE ID. PLEASE TRY AGAIN.",
     new_resource_id_check_taken: "ID IS NOT VALID OR ALREADY TAKEN.",
+    qr_code_not_found: "",
+    calendar_input_confirm: "",
+    calendar_input_cancel: "",
   }
 }
 
