@@ -116,6 +116,20 @@ const es_ES: TranslationFile = {
     sync_error_save_reading_unknown: "AN UNKNOWN ERROR OCCOURED",
     sync_error_delete_pending_reading: "CLEANUP ERROR",
     sync_error_unknown: "AN UNKNOWN ERROR OCCOURED",
+    sync_email_error: "THERE WAS A PROBLEM SENDING THE EMAIL. PLEASE TRY AGAIN.",
+    sync_email_success: "EMAIL SENT!",
+    sync_screen_heading: "IN ORDER TO FINISH SAVING YOUR GROUNDWATER STATIONS TO GGMN, YOU NEED TO MANUALLY REGISTER THEM ON THE GGMN SITE.",
+    sync_screen_step_1_heading: "STEP 1.",
+    sync_screen_step_1_body: "CLICK THE 'SEND EMAIL' BUTTON BELOW TO SEND AN EMAIL TO YOUR GGMN ACCOUNT. THIS EMAIL WILL CONTAIN THE SHAPEFILES NEEDED TO REGISTER THE GROUNDWATER STATIONS",
+    sync_screen_step_2_heading: "STEP 2.",
+    sync_screen_step_2_body: "ONCE YOU HAVE RECIEVED THE EMAIL, LOG INTO GGMN AT HTTPS://GGMN.UN-IGRAC.ORG/ AND SELECT 'UPLOAD' IN THE TOP RIGHT CORNER.",
+    sync_screen_step_3_heading: "STEP 3.",
+    sync_screen_step_3_body: "SCROLL DOWN TO 'IMPORT A SUFHYD OR SHAPE FILE' SELECT THE ORGANISATION YOUR ACCOUNT IS ASSOCIATED WITH, AND THE FILE FROM THE EMAIL.",
+    sync_screen_step_4_heading: "STEP 4.",
+    sync_screen_step_4_body: "ONCE THIS IS DONE, LOG BACK INTO GGMN ON YOUR DEVICE, AND YOU WILL SEE THAT RESOURCES HAVE CHANGED COLOR, AND AND PENDING REAADINGS WILL START TO SAVE.",
+    sync_screen_help_heading: "NEED SOME HELP?",
+    sync_screen_help_body: "JUST REACH OUT TO ____ AT ____. WE'D BE GLAD TO ASSIST YOU.",
+    sync_screen_send_email_button: "SEND EMAIL",
   }
 }
 

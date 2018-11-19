@@ -116,6 +116,20 @@ const en_AU: TranslationFile = {
     sync_error_save_reading_unknown: "An unknown error occoured",
     sync_error_delete_pending_reading: "Cleanup error",
     sync_error_unknown: "An unknown error occoured",
+    sync_email_error: "There was a problem sending the email. Please try again.",
+    sync_email_success: "Email Sent!",
+    sync_screen_heading: "In order to finish saving your groundwater stations to GGMN, you need to manually register them on the GGMN site.",
+    sync_screen_step_1_heading: "Step 1.",
+    sync_screen_step_1_body: "Click the 'Send Email' button below to send an email to your GGMN account. This email will contain the shapefiles needed to register the groundwater stations",
+    sync_screen_step_2_heading: "Step 2.",
+    sync_screen_step_2_body: "Once you have recieved the email, log into GGMN at https://ggmn.un-igrac.org/ and select 'Upload' in the top right corner.",
+    sync_screen_step_3_heading: "Step 3.",
+    sync_screen_step_3_body: "Scroll down to 'Import a SufHyd or shape File' select the organisation your account is associated with, and the file from the email.",
+    sync_screen_step_4_heading: "Step 4.",
+    sync_screen_step_4_body: "Once this is done, log back into GGMN on your device, and you will see that resources have changed color, and and pending reaadings will start to save.",
+    sync_screen_help_heading: "Need some help?",
+    sync_screen_help_body: "Just reach out to ____ at ____. We'd be glad to assist you.",
+    sync_screen_send_email_button: "Send Email",
   }
 }
 

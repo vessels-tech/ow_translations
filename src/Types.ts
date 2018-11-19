@@ -184,7 +184,21 @@ export type TranslationFile = {
     sync_error_generic_transport: string,
     sync_error_save_reading_unknown: string,
     sync_error_delete_pending_reading: string,
+    sync_email_error: string,
+    sync_email_success: string,
     sync_error_unknown: string,
+    sync_screen_heading: string,
+    sync_screen_step_1_heading: string,
+    sync_screen_step_1_body: string,
+    sync_screen_step_2_heading: string,
+    sync_screen_step_2_body: string,
+    sync_screen_step_3_heading: string,
+    sync_screen_step_3_body: string,
+    sync_screen_step_4_heading: string,
+    sync_screen_step_4_body: string,
+    sync_screen_help_heading: string,
+    sync_screen_help_body: string,
+    sync_screen_send_email_button: string,
 
 
   }
