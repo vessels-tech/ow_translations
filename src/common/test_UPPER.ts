@@ -130,6 +130,7 @@ const test_UPPER: TranslationFile = {
     sync_screen_help_heading: "NEED SOME HELP?",
     sync_screen_help_body: "JUST REACH OUT TO ____ AT ____. WE'D BE GLAD TO ASSIST YOU.",
     sync_screen_send_email_button: "SEND EMAIL",
+    settings_language: "LANG",
   }
 }
 
