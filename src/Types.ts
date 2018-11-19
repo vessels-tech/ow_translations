@@ -169,6 +169,9 @@ export type TranslationFile = {
     calendar_input_confirm: string,
     calendar_input_cancel: string,
     timeseries_name_title: (tsName: string) => string,
+    resource_detail_heading_label: string,
+    timeseries_date_format: string,
+    resource_detail_new_reading_button: string,
 
   }
 }

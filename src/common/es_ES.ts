@@ -100,6 +100,9 @@ const es_ES: TranslationFile = {
       default: return `Groundwater level below ground surface`
     }
   },
+    resource_detail_heading_label: "ID: ",
+    timeseries_date_format: "YYYY-MM-DD",
+    resource_detail_new_reading_button: "",
   }
 }
 
