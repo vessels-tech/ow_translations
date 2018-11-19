@@ -93,6 +93,13 @@ const guj_IN: TranslationFile = {
     qr_code_not_found: "",
     calendar_input_confirm: "",
     calendar_input_cancel: "",
+    timeseries_name_title: (tsName: string) => {
+    switch (tsName.toLowerCase()) {
+      case 'gwmbgs': return `Groundwater level below ground surface`
+      case 'gwmmsl':
+      default: return `Groundwater level below ground surface`
+    }
+  },
   }
 }
 

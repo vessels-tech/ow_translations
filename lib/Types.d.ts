@@ -154,5 +154,6 @@ export declare type TranslationFile = {
         qr_code_not_found: string;
         calendar_input_confirm: string;
         calendar_input_cancel: string;
+        timeseries_name_title: (tsName: string) => string;
     };
 };

@@ -93,6 +93,13 @@ const en_AU: TranslationFile = {
     qr_code_not_found: "Could not find a location from the QR Code. Please try scanning again.",
     calendar_input_confirm: "CONFIRM",
     calendar_input_cancel: "CANCEL",
+    timeseries_name_title: (tsName: string) => {
+    switch (tsName.toLowerCase()) {
+      case 'gwmbgs': return `Groundwater level below ground surface`
+      case 'gwmmsl':
+      default: return `Groundwater level below ground surface`
+    }
+  },
   }
 }
 
