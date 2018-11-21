@@ -131,6 +131,7 @@ const en_AU: TranslationFile = {
     sync_screen_help_body: "Just reach out to ____ at ____. We'd be glad to assist you.",
     sync_screen_send_email_button: "Send Email",
     settings_language: "Language",
+    timeseries_none: "No timeseries found for this Station.",
   }
 }
 

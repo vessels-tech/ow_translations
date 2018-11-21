@@ -200,7 +200,6 @@ export type TranslationFile = {
     sync_screen_help_body: string,
     sync_screen_send_email_button: string,
     settings_language: string, 
-
-
+    timeseries_none: string,
   }
 }
