@@ -144,6 +144,10 @@ const en_AU: TranslationFile = {
     connect_to_email_label: "Email",
     connect_to_profile_mobile: "Mobile",
     connect_to_sign_out: "SIGN OUT",
+    menu_well: "",
+    menu_rainfall: "",
+    menu_water_quality: "",
+    menu_checkdam: "",
   }
 }
 

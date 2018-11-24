@@ -144,6 +144,10 @@ const guj_IN: TranslationFile = {
     connect_to_email_label: "EMAIL",
     connect_to_profile_mobile: "MOBILE",
     connect_to_sign_out: "SIGN OUT",
+    menu_well: "વેલ્સ",
+    menu_rainfall: "વરસાદ",
+    menu_water_quality: "પાણીની ગુણવત્તા",
+    menu_checkdam: "તપાસો",
   }
 }
 

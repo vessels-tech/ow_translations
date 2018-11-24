@@ -144,6 +144,10 @@ const test_UPPER: TranslationFile = {
     connect_to_email_label: "EMAIL",
     connect_to_profile_mobile: "MOBILE",
     connect_to_sign_out: "SIGN OUT",
+    menu_well: "WELLS",
+    menu_rainfall: "RAINFALL",
+    menu_water_quality: "WATER QUALITY",
+    menu_checkdam: "CHECKDAMS",
   }
 }
 

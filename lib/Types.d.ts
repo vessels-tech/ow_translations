@@ -199,5 +199,9 @@ export declare type TranslationFile = {
         connect_to_email_label: string;
         connect_to_profile_mobile: string;
         connect_to_sign_out: string;
+        menu_well: string;
+        menu_rainfall: string;
+        menu_water_quality: string;
+        menu_checkdam: string;
     };
 };

@@ -144,6 +144,10 @@ const hi_IN: TranslationFile = {
     connect_to_email_label: "EMAIL",
     connect_to_profile_mobile: "MOBILE",
     connect_to_sign_out: "SIGN OUT",
+    menu_well: "कुंआ",
+    menu_rainfall: "वर्षा",
+    menu_water_quality: "पानी की गुणवत्ता",
+    menu_checkdam: "बांध",
   }
 }
 
