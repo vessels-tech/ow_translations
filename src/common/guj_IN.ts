@@ -148,6 +148,7 @@ const guj_IN: TranslationFile = {
     menu_rainfall: "વરસાદ",
     menu_water_quality: "પાણીની ગુણવત્તા",
     menu_checkdam: "તપાસો",
+    scan_hint: "",
   }
 }
 

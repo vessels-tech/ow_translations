@@ -144,10 +144,11 @@ const en_AU: TranslationFile = {
     connect_to_email_label: "Email",
     connect_to_profile_mobile: "Mobile",
     connect_to_sign_out: "SIGN OUT",
-    menu_well: "",
-    menu_rainfall: "",
-    menu_water_quality: "",
-    menu_checkdam: "",
+    menu_well: "WELLS",
+    menu_rainfall: "RAINFALL",
+    menu_water_quality: "WATER QUALITY",
+    menu_checkdam: "CHECKDAMS",
+    scan_hint: "Scan for a Location using a QR Code",
   }
 }
 

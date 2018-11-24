@@ -148,6 +148,7 @@ const hi_IN: TranslationFile = {
     menu_rainfall: "वर्षा",
     menu_water_quality: "पानी की गुणवत्ता",
     menu_checkdam: "बांध",
+    scan_hint: "",
   }
 }
 

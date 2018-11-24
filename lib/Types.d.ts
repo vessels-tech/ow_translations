@@ -203,5 +203,6 @@ export declare type TranslationFile = {
         menu_rainfall: string;
         menu_water_quality: string;
         menu_checkdam: string;
+        scan_hint: string;
     };
 };

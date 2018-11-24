@@ -148,6 +148,7 @@ const en_US: TranslationFile = {
     menu_rainfall: "RAINFALL",
     menu_water_quality: "WATER QUALITY",
     menu_checkdam: "CHECKDAMS",
+    scan_hint: "",
   }
 }
 
