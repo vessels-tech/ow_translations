@@ -201,5 +201,18 @@ export type TranslationFile = {
     sync_screen_send_email_button: string,
     settings_language: string, 
     timeseries_none: string,
+    resource_detail_new_reading: string,
+    connect_to_error_message: string,
+    connect_to_invalid_phone_number: string,
+    connect_to_login_code: (mobile: string) => string,
+    connect_to_resend: string,
+    connect_to_signed_in_heading: string,
+    connect_to_edit: string,
+    connect_to_name_label: string,
+    connect_to_nickname_label: string,
+    connect_to_email_label: string,
+    connect_to_profile_mobile: string,
+    connect_to_sign_out: string,
+
   }
 }

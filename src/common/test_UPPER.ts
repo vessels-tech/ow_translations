@@ -132,6 +132,18 @@ const test_UPPER: TranslationFile = {
     sync_screen_send_email_button: "SEND EMAIL",
     settings_language: "LANG",
     timeseries_none: "No timeseries found for this Station.",
+    resource_detail_new_reading: "NEW READING",
+    connect_to_error_message: "ERROR SIGNING IN. PLEASE TRY AGAIN.",
+    connect_to_invalid_phone_number: "PHONE NUMBER IS INVALID",
+    connect_to_login_code: (mobile: string) => `Enter the login code we sent to ${mobile}. Or wait as we verify you automatically`,
+    connect_to_resend: "DIDN'T GET THE TEXT?",
+    connect_to_signed_in_heading: "YOU ARE SIGNED IN.",
+    connect_to_edit: "EDIT",
+    connect_to_name_label: "FULL NAME",
+    connect_to_nickname_label: "SHORT NAME",
+    connect_to_email_label: "EMAIL",
+    connect_to_profile_mobile: "MOBILE",
+    connect_to_sign_out: "SIGN OUT",
   }
 }
 
