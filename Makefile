@@ -7,7 +7,7 @@ PATH := node_modules/.bin:$(PATH)
 dir = $(shell pwd)
 
 
-all: parse build
+all: parse build update
 
 build:
 	yarn run build
@@ -20,5 +20,8 @@ lazy_build:
 
 parse:
 	node ./lib/parser.js
+
+update: 
+	git commit -am "update translations" ; git push ; git log | head -1
 
 .PHONY: build parse
