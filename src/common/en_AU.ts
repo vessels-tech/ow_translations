@@ -15,9 +15,9 @@ const en_AU: TranslationFile = {
   templates: {
     app_resource_load_error: "Error loading locations. Please try again.",
     app_resource_not_found: "Could not find the selected reading location",
-    settings_connect_to_pending_title: "OVERRIDE",
-    settings_connect_to_connected_title: "OVERRIDE",
-    settings_connect_to_subtitle_error: "OVERRIDE",
+    settings_connect_to_pending_title: "Login to MyWell",
+    settings_connect_to_connected_title: "Logged in to MyWell",
+    settings_connect_to_subtitle_error: "Error logging into MyWell.",
     settings_login_error: "Error logging in.",
     settings_sync_heading: "MyWell Sync",
     settings_new_resource: "New reading Location",
@@ -95,9 +95,9 @@ const en_AU: TranslationFile = {
     calendar_input_cancel: "CANCEL",
     timeseries_name_title: (tsName: string) => {
     switch (tsName.toLowerCase()) {
-      case 'gwmbgs': return `Groundwater level below ground surface`
+      case 'gwmbgs': return `Depth to water Level`
       case 'gwmmsl':
-      default: return `Groundwater level below ground surface`
+      default: return `Depth to water Level`
     }
   },
     resource_detail_heading_label: "ID: ",
