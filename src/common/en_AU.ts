@@ -15,7 +15,7 @@ const en_AU: TranslationFile = {
   templates: {
     app_resource_load_error: "Error loading locations. Please try again.",
     app_resource_not_found: "Could not find the selected reading location",
-    settings_connect_to_pending_title: "Login to MyWell",
+    settings_connect_to_pending_title: "TEST 1234 Login to MyWell",
     settings_connect_to_connected_title: "Logged in to MyWell",
     settings_connect_to_subtitle_error: "Error logging into MyWell.",
     settings_login_error: "Error logging in.",
