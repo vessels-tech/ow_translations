@@ -205,5 +205,13 @@ export declare type TranslationFile = {
         menu_water_quality: string;
         menu_checkdam: string;
         scan_hint: string;
+        sync_screen_step_5_heading: string;
+        sync_screen_step_5_body: string;
+        timeseries_card_not_enough: string;
+        resource_detail_edit_resource: string;
+        resource_detail_edit_readings: string;
+        general_is_required_error: string;
+        new_resource_name: string;
+        edit_resource_delete_button: string;
     };
 };

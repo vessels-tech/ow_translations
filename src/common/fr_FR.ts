@@ -149,6 +149,14 @@ const fr_FR: TranslationFile = {
     menu_water_quality: "WATER QUALITY",
     menu_checkdam: "CHECKDAMS",
     scan_hint: "",
+    sync_screen_step_5_heading: "",
+    sync_screen_step_5_body: "",
+    timeseries_card_not_enough: "",
+    resource_detail_edit_resource: "",
+    resource_detail_edit_readings: "",
+    new_resource_name: "",
+    edit_resource_delete_button: "",
+    general_is_required_error: "",
   }
 }
 

@@ -1,17 +1,26 @@
 import { TranslationOrg, TranslationFiles, TranslationEnum, TranslationFile, TranslationOverrideFile } from "./Types";
 
 import {en_AU} from './common/en_AU';
-import {en_US} from './common/en_US';
-import {guj_IN} from './common/guj_IN';
-import {hi_IN} from './common/hi_IN';
-import {test_UPPER} from './common/test_UPPER';
-import {fr_FR} from './common/fr_FR';
-import {es_ES} from './common/es_ES';
+// import {en_US} from './common/en_US';
+// import {guj_IN} from './common/guj_IN';
+// import {hi_IN} from './common/hi_IN';
+// import {test_UPPER} from './common/test_UPPER';
+// import {fr_FR} from './common/fr_FR';
+// import {es_ES} from './common/es_ES';
+
+//Temp to get building
+const en_US = en_AU;
+const guj_IN = en_AU;
+const hi_IN = en_AU;
+const test_UPPER = en_AU;
+const fr_FR = en_AU;
+const es_ES = en_AU;
 
 
 import { ggmn_en_AU } from './ggmn/en_AU';
 import { ggmn_fr_FR } from './ggmn/fr_FR';
 import { ggmn_es_ES } from './ggmn/es_ES';
+
 
 
 /**

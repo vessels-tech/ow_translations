@@ -93,6 +93,11 @@ function writeFile(path:string, contents:string): Promise<void> {
   });
 }
 
+function sanitize(input: string): string {
+  // return input.replace('"', "'");
+  return input.replace(/"/g, "'");
+}
+
 
 function run() {
   //https://docs.google.com/spreadsheets/d/e/2PACX-1vSHp6u_WXM18NB9RqPfiaKugHdT_zhHP5NQlZYStzRJfnwFJPlfwTSYtAGJvP1axvhZ8WifYJcE8RAJ/pubhtml
@@ -111,7 +116,6 @@ function run() {
   };
   return request(options)
   .then((response: SheetsResponse) => {
-    console.log(response.feed.title);
     const perRowTranslations: TranslationRow[] = [];
 
     response.feed.entry.forEach((r: SheetsRow) => {
@@ -124,7 +128,7 @@ function run() {
         hi_IN: r.gsx$hiin.$t,
         test_UPPER: r.gsx$testupper.$t,
         fr_FR: r.gsx$frfr.$t,
-        es_ES: r.gsx$eses.$t,
+        es_ES: sanitize(r.gsx$eses.$t),
 
       };
       perRowTranslations.push(row);
