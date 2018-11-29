@@ -25,6 +25,13 @@ const ggmn_en_AU: TranslationOverrideFile  = {
     resource_name: "Groundwater Station",
     new_resource_asset_type_label: "Asset Type",
     new_resource_submit_button: "SUBMIT",
+    timeseries_name_title: (tsName: string) => {
+      switch (tsName.toLowerCase()) {
+        case 'gwmbgs': return `Groundwater level below ground surface`
+        case 'gwmmsl':
+        default: return `Groundwater level above mean sea level`
+      }
+    },
 
 
   }

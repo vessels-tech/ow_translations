@@ -120,6 +120,41 @@ export function getTranslationForLanguage(files: TranslationFiles, language: Tra
   }
 }
 
+/**
+ * Tools for saving and parsing translations as json
+ */
+export const functionReplacer = (name: any, val: any) => {
+  if (typeof val === 'function') {
+    const entire = val.toString();
+    const arg = entire.slice(entire.indexOf("(") + 1, entire.indexOf(")"));
+    const body = entire.slice(entire.indexOf("{") + 1, entire.lastIndexOf("}"));
+
+    return {
+      type: 'function',
+      arguments: arg,
+      body,
+    };
+  }
+
+  return val;
+}
+
+
+export const functionReviver = (name: any, val: any) => {
+
+  if (typeof val === 'object' && val.type === 'function') {
+    return new Function(val.arguments, val.body);
+  }
+
+  return val;
+}
+
+
+export function translationFromJSON(jsonString: string): TranslationFiles {
+  const files: TranslationFiles = JSON.parse(jsonString, functionReviver);
+  return files
+}
+
 export {
   TranslationOrg,
   TranslationFiles,

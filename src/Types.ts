@@ -73,6 +73,8 @@ export type GGMNTranslationOverrideFile = {
     resource_name: string,
     new_resource_asset_type_label: string,
     new_resource_submit_button: string,
+    timeseries_name_title: (tsName: string) => string,
+
   }
 }
 

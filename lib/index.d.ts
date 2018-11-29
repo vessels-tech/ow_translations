@@ -19,4 +19,10 @@ export declare function translationsForTranslationOrg(orgId: TranslationOrg): Tr
  * this method is fully type safe
  */
 export declare function getTranslationForLanguage(files: TranslationFiles, language: TranslationEnum): TranslationFile;
+/**
+ * Tools for saving and parsing translations as json
+ */
+export declare const functionReplacer: (name: any, val: any) => any;
+export declare const functionReviver: (name: any, val: any) => any;
+export declare function translationFromJSON(jsonString: string): TranslationFiles;
 export { TranslationOrg, TranslationFiles, TranslationEnum, TranslationFile, TranslationOverrideFile, };
