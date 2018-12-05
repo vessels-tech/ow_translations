@@ -43,7 +43,7 @@ const ggmn_en_AU: TranslationOverrideFile = {
     sync_screen_step_2_body: "Once you have recieved the email, log into GGMN at https://ggmn.un-igrac.org/ and select 'Upload' in the top right corner.",
     sync_screen_step_3_body: "Scroll down to 'Import a SufHyd or shape File' select the organisation your account is associated with, and the file from the email.",
     sync_screen_step_4_body: "Once this is done, log back into GGMN on your device, and you will see that resources have changed color, and and pending reaadings will start to save.",
-    sync_screen_help_body: "Just reach out to ____ at",
+    sync_screen_help_body: "Just reach out to Claudia at",
     sync_screen_step_5_body: "Once this is done, log back into GGMN on your device, and you will see that the groundwater stations have changed color, and pending readings will start to save.",
     sync_screen_help_email: "claudia.ruz-vargas@un-igrac.org",
     sync_screen_help_end: ". We'd be glad to assist you.",
