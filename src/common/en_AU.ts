@@ -150,7 +150,7 @@ const en_AU: TranslationFile = {
     menu_checkdam: "CHECKDAMS",
     scan_hint: "Scan for a Location using a QR Code",
     sync_screen_step_5_heading: "Step 5.",
-    sync_screen_step_5_body: "LEWIS IS THE BEST!!!Once this is done, log back into GGMN on your device, and you will see that the groundwater stations have changed color, and and pending readings will start to save.",
+    sync_screen_step_5_body: "Once this is done, log back into GGMN on your device, and you will see that the groundwater stations have changed color, and and pending readings will start to save.",
     timeseries_card_not_enough: "Not enough readings for this time range.",
     resource_detail_edit_resource: "EDIT STATION",
     resource_detail_edit_readings: "EDIT READINGS",
