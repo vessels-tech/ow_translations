@@ -157,6 +157,8 @@ const test_UPPER: TranslationFile = {
     new_resource_name: "",
     edit_resource_delete_button: "",
     general_is_required_error: "",
+    sync_screen_help_email: "",
+    sync_screen_help_end: "",
   }
 }
 

@@ -157,6 +157,8 @@ const en_AU: TranslationFile = {
     new_resource_name: "Name:",
     edit_resource_delete_button: "DELETE",
     general_is_required_error: "is required.",
+    sync_screen_help_email: "claudia.ruz-vargas@un-igrac.org",
+    sync_screen_help_end: ". We'd be glad to assist you.",
   }
 }
 

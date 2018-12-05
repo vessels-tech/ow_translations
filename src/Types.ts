@@ -228,5 +228,7 @@ export type TranslationFile = {
     general_is_required_error: string,
     new_resource_name: string,
     edit_resource_delete_button: string,
+    sync_screen_help_email: string,
+    sync_screen_help_end: string,
   }
 }

@@ -157,6 +157,8 @@ const es_ES: TranslationFile = {
     new_resource_name: "Name:",
     edit_resource_delete_button: "DELETE",
     general_is_required_error: "",
+    sync_screen_help_email: "",
+    sync_screen_help_end: "",
   }
 }
 
