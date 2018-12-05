@@ -128,7 +128,7 @@ const en_AU: TranslationFile = {
     sync_screen_step_4_heading: "Step 4.",
     sync_screen_step_4_body: "Then scroll to 'Import a csv File' and select the .csv file you recieved in your email. Make sure you select the same organization and set the asset associated with the file to 'groundwater station'.",
     sync_screen_help_heading: "Need some help?",
-    sync_screen_help_body: "Just reach out to Claudia at claudia.ruz-vargas@un-igrac.org. We'd be glad to assist you.",
+    sync_screen_help_body: "Just reach out to Claudia at ",
     sync_screen_send_email_button: "Send Email",
     settings_language: "Language",
     timeseries_none: "No timeseries found for this Station.",
