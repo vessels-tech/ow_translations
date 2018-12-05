@@ -115,7 +115,7 @@ const en_AU: TranslationFile = {
     sync_error_generic_transport: "Request failed or timed out. Please try again.",
     sync_error_save_reading_unknown: "An unknown error occoured",
     sync_error_delete_pending_reading: "Cleanup error",
-    sync_error_unknown: "An unknown error occoured",
+    sync_error_unknown: "Couldn't perform sync. Please try again.",
     sync_email_error: "There was a problem sending the email. Please try again.",
     sync_email_success: "Email Sent!",
     sync_screen_heading: "In order to finish saving your groundwater stations to GGMN, you need to manually register them on the GGMN site.",

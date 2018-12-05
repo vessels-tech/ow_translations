@@ -23,6 +23,9 @@ export declare type SheetsRow = {
     gsx$id: {
         $t: string;
     };
+    gsx$notes: {
+        $t: string;
+    };
     gsx$enau: {
         $t: string;
     };
@@ -52,11 +55,20 @@ export declare enum TranslationRowType {
 export declare type TranslationRow = {
     id: string;
     type: TranslationRowType;
+    notes: string;
     en_AU: string;
     en_US: string;
     guj_IN: string;
     hi_IN: string;
     test_UPPER: string;
+    fr_FR: string;
+    es_ES: string;
+};
+export declare type GGMNTranslationRow = {
+    id: string;
+    type: TranslationRowType;
+    notes: string;
+    en_AU: string;
     fr_FR: string;
     es_ES: string;
 };

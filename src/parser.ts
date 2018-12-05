@@ -1,5 +1,5 @@
 const fs = require('fs');
-import { fileForTranslations } from "./template";
+import { fileForTranslations, fileForOverrides } from "./template";
 import { TranslationEnum } from "./Types";
 
 /**
@@ -36,6 +36,9 @@ export type SheetsRow = {
   gsx$id: {
     $t: string,
   }
+  gsx$notes: {
+    $t: string,
+  }
   gsx$enau: {
     $t: string,
   },
@@ -67,11 +70,21 @@ export enum TranslationRowType {
 export type TranslationRow = {
   id: string,
   type: TranslationRowType,
+  notes: string,
   en_AU: string,
   en_US: string,
   guj_IN: string,
   hi_IN: string,
   test_UPPER: string,
+  fr_FR: string,
+  es_ES: string,
+}
+
+export type GGMNTranslationRow = {
+  id: string,
+  type: TranslationRowType,
+  notes: string,
+  en_AU: string,
   fr_FR: string,
   es_ES: string,
 }
@@ -98,11 +111,9 @@ function sanitize(input: string): string {
   return input.replace(/"/g, "'");
 }
 
-
-function run() {
+function getSheetAsJson(sheetId: string): Promise<SheetsResponse> {
   //https://docs.google.com/spreadsheets/d/e/2PACX-1vSHp6u_WXM18NB9RqPfiaKugHdT_zhHP5NQlZYStzRJfnwFJPlfwTSYtAGJvP1axvhZ8WifYJcE8RAJ/pubhtml
-  const sheetsId = "102zLqEWj4xlqqNgVUFCiMLqdcvaLY6GntS1xmlHdAE8"
-  const url = `https://spreadsheets.google.com/feeds/list/${sheetsId}/default/public/values?alt=json;`
+  const url = `https://spreadsheets.google.com/feeds/list/${sheetId}/default/public/values?alt=json;`
 
   var options = {
     method: 'GET',
@@ -114,25 +125,56 @@ function run() {
     },
     json: true,
   };
-  return request(options)
+  return request(options);
+}
+
+function sheetsResponseToRows(response: SheetsResponse): TranslationRow[] {
+  const perRowTranslations: TranslationRow[] = [];
+
+  response.feed.entry.forEach((r: SheetsRow) => {
+    const row: TranslationRow = {
+      id: r.title.$t,
+      notes: r.gsx$notes.$t,
+      type: r.gsx$type.$t,
+      en_AU: r.gsx$enau.$t,
+      en_US: r.gsx$enus.$t,
+      guj_IN: r.gsx$gujin.$t,
+      hi_IN: r.gsx$hiin.$t,
+      test_UPPER: r.gsx$testupper.$t,
+      fr_FR: sanitize(r.gsx$frfr.$t),
+      es_ES: sanitize(r.gsx$eses.$t),
+
+    };
+    perRowTranslations.push(row);
+  });
+
+  return perRowTranslations;
+}
+
+function sheetsResponseToRowsGGMN(response: SheetsResponse): GGMNTranslationRow[] {
+  const perRowTranslations: GGMNTranslationRow[] = [];
+
+  response.feed.entry.forEach((r: SheetsRow) => {
+    const row: GGMNTranslationRow = {
+      id: r.title.$t,
+      notes: r.gsx$notes.$t,
+      type: r.gsx$type.$t,
+      en_AU: r.gsx$enau.$t,
+      fr_FR: sanitize(r.gsx$frfr.$t),
+      es_ES: sanitize(r.gsx$eses.$t),
+
+    };
+    perRowTranslations.push(row);
+  });
+
+  return perRowTranslations;
+}
+
+
+function run() {
+  getSheetAsJson("102zLqEWj4xlqqNgVUFCiMLqdcvaLY6GntS1xmlHdAE8")
   .then((response: SheetsResponse) => {
-    const perRowTranslations: TranslationRow[] = [];
-
-    response.feed.entry.forEach((r: SheetsRow) => {
-      const row: TranslationRow = {
-        id: r.title.$t,
-        type: r.gsx$type.$t,
-        en_AU: r.gsx$enau.$t,
-        en_US: r.gsx$enus.$t,
-        guj_IN: r.gsx$gujin.$t,
-        hi_IN: r.gsx$hiin.$t,
-        test_UPPER: r.gsx$testupper.$t,
-        fr_FR: r.gsx$frfr.$t,
-        es_ES: sanitize(r.gsx$eses.$t),
-
-      };
-      perRowTranslations.push(row);
-    });
+    const perRowTranslations = sheetsResponseToRows(response);
 
     //Now that we have the rows, write the files!
     const en_AU: TranslationColumn = {};
@@ -158,8 +200,6 @@ function run() {
     const fr_FR_file = fileForTranslations(TranslationEnum.fr_FR, fr_FR);
     const es_ES_file = fileForTranslations(TranslationEnum.es_ES, es_ES);
 
-
-
     return Promise.all([
       writeFile('./src/common/en_AU.ts', en_AU_file),
       writeFile('./src/common/en_US.ts', en_US_file),
@@ -173,4 +213,36 @@ function run() {
   .catch((err: any) => console.error(err));
 }
 
-run();
+function getOverrides(sheetId: string, orgId: string) {
+  return getSheetAsJson(sheetId)
+  .then(response => {
+    const perRowTranslations = sheetsResponseToRowsGGMN(response).filter(r => r.notes.toLowerCase() === 'override');
+    console.log(`Found ${perRowTranslations.length} overrides for org: ${orgId}`);
+
+    //TODO: generalize to other orgs, for now GGMN is fine
+
+    //Now that we have the rows, write the files!
+    const en_AU: TranslationColumn = {};
+    const fr_FR: TranslationColumn = {};
+    const es_ES: TranslationColumn = {};
+    perRowTranslations.forEach(row => en_AU[row.id] = [row.en_AU, row.type])
+    perRowTranslations.forEach(row => fr_FR[row.id] = [row.fr_FR, row.type])
+    perRowTranslations.forEach(row => es_ES[row.id] = [row.es_ES, row.type])
+
+    const en_AU_file = fileForOverrides(orgId, TranslationEnum.en_AU, en_AU);
+    const fr_FR_file = fileForOverrides(orgId, TranslationEnum.fr_FR, fr_FR);
+    const es_ES_file = fileForOverrides(orgId, TranslationEnum.es_ES, es_ES);
+
+    return Promise.all([
+      writeFile(`./src/${orgId}/en_AU.ts`, en_AU_file),
+      writeFile(`./src/${orgId}/fr_FR.ts`, fr_FR_file),
+      writeFile(`./src/${orgId}/es_ES.ts`, es_ES_file),
+    ]).catch(err => console.error(err))
+  });
+
+
+}
+
+// run();
+//https://docs.google.com/spreadsheets/d/e/2PACX-1vRiCJNicJ6lrCZZF2OjvuNlY8SwbFFuguQWEGMn-QoizWlYtOFaZrorzJTYEYnxkU9SFybgC3w4PAaO/pubhtml
+getOverrides('11JUqNJ-gScZ3scUe1bi7XMWDJgniwS7ZY4Guxv5AJtE', 'ggmn');
