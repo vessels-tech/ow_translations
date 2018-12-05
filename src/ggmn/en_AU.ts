@@ -50,4 +50,4 @@ const ggmn_en_AU: TranslationOverrideFile = {
   }
 }
 
-export { ggmn_en_AU};
+export {ggmn_en_AU};

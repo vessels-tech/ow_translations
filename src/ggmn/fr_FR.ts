@@ -39,9 +39,9 @@ const ggmn_fr_FR: TranslationOverrideFile = {
   },
     sync_manual_text: "Les stations de suivi doivent être synchronisées manuellement",
     sync_screen_heading: "Pour finir d'enregistrer les stations de suivi dans le GGMN, veuillez les enregistrer manuellenet sur le site du GGMN.",
-    sync_screen_step_1_body: "",
-    sync_screen_step_2_body: "",
-    sync_screen_step_3_body: "",
+    sync_screen_step_1_body: "Cliquez sur 'Envoyer un courriel' ci-dessous pour envoyer un courriel à votre compte GGMN. Le courriel contiendra les fichiers shapefile nécessaires à l'enregistrement des stations.",
+    sync_screen_step_2_body: "Après réception du courriel, connectez-vous au GGMN sur https://ggmn.un-igrac.org/ and sélectionnez 'Téléverser' dans le coin supérieur droit.",
+    sync_screen_step_3_body: "Défilez vers le bas jusqu'à 'Importer un fichier SufHyd ou shapefile'. Sélectionnez l'organisation à laquelle votre compte est associé, ainsi que le fichier du courriel.",
     sync_screen_step_4_body: "Ensuite, connectez-vous au GGMN sur votre appareil mobile. Les stations de suivi auront changé de couleur, et les mesures en attente vont être enregistrées.",
     sync_screen_help_body: "Contactez ____ via ____. Nous ferons de notre mieux pour vous aider.",
     sync_screen_step_5_body: "Ensuite, connectez-vous au GGMN sur votre appareil mobile. Les stations de suivi auront changé de couleur, et les mesures en attente vont être enregistrées.",
@@ -50,4 +50,4 @@ const ggmn_fr_FR: TranslationOverrideFile = {
   }
 }
 
-export { ggmn_fr_FR};
+export {ggmn_fr_FR};

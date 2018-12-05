@@ -243,6 +243,5 @@ function getOverrides(sheetId: string, orgId: string) {
 
 }
 
-// run();
-//https://docs.google.com/spreadsheets/d/e/2PACX-1vRiCJNicJ6lrCZZF2OjvuNlY8SwbFFuguQWEGMn-QoizWlYtOFaZrorzJTYEYnxkU9SFybgC3w4PAaO/pubhtml
+run();
 getOverrides('11JUqNJ-gScZ3scUe1bi7XMWDJgniwS7ZY4Guxv5AJtE', 'ggmn');
