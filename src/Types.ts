@@ -88,6 +88,8 @@ export type GGMNTranslationOverrideFile = {
     sync_screen_help_end: string,
     recent_resource_none: string,
     resource_detail_new: string,
+    resource_email_subject: string,
+    resource_email_message: string,
 
   }
 }
@@ -244,5 +246,7 @@ export type TranslationFile = {
     edit_resource_delete_button: string,
     sync_screen_help_email: string,
     sync_screen_help_end: string,
+    resource_email_subject: string,
+    resource_email_message: string,
   }
 }

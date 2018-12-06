@@ -159,6 +159,8 @@ const en_AU: TranslationFile = {
     general_is_required_error: "is required.",
     sync_screen_help_email: "claudia.ruz-vargas@un-igrac.org",
     sync_screen_help_end: ". We'd be glad to assist you.",
+    resource_email_subject: "GGMN Manual Resources",
+    resource_email_message: "Here are your shapefile and csv files for manually syncing to GGMN. Go to https://www.un-igrac.org/ggis/ggmn-portal to get started.",
   }
 }
 

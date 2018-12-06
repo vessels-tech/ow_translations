@@ -47,6 +47,8 @@ const ggmn_fr_FR: TranslationOverrideFile = {
     sync_screen_step_5_body: "Ensuite, connectez-vous au GGMN sur votre appareil mobile. Les stations de suivi auront changé de couleur, et les mesures en attente vont être enregistrées.",
     sync_screen_help_email: "",
     sync_screen_help_end: "",
+    resource_email_subject: "",
+    resource_email_message: "",
   }
 }
 

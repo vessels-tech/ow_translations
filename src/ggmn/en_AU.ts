@@ -47,6 +47,8 @@ const ggmn_en_AU: TranslationOverrideFile = {
     sync_screen_step_5_body: "Once this is done, log back into GGMN on your device, and you will see that the groundwater stations have changed color, and pending readings will start to save.",
     sync_screen_help_email: "claudia.ruz-vargas@un-igrac.org",
     sync_screen_help_end: ". We'd be glad to assist you.",
+    resource_email_subject: "GGMN Manual Resources",
+    resource_email_message: "Here are your shapefile and csv files for manually syncing to GGMN. Go to https://www.un-igrac.org/ggis/ggmn-portal to get started.",
   }
 }
 

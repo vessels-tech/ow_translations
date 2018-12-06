@@ -159,6 +159,8 @@ const en_US: TranslationFile = {
     general_is_required_error: "",
     sync_screen_help_email: "",
     sync_screen_help_end: "",
+    resource_email_subject: "",
+    resource_email_message: "",
   }
 }
 
