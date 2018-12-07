@@ -21,6 +21,7 @@ const ggmn_en_AU: TranslationOverrideFile = {
     new_reading_value_field_invalid: "Invalid Measurement",
     connect_to_service_description: "Connect to GGMN to create new groundwater stations and save readings from your device.",
     connect_to_service_connected_test: (fieldName: string, username: string) => `You are connected to GGMN with the ${fieldName}: ${username}`,
+    connect_to_service_org_selector: "Select an organisation",
     recent_resource_none: "No recent groundwater stations",
     resource_detail_new: "New Reading",
     sync_login_message: "Login to sync with GGMN",
@@ -28,6 +29,7 @@ const ggmn_en_AU: TranslationOverrideFile = {
     sync_section_resources: "Groundwater Stations",
     sync_empty_content: "Start making measurements or creating groundwater stations to get started.",
     resource_detail_empty_heading: "You haven't found any groundwater stations yet.",
+    resource_detail_empty_hint: "Press the search button or browse the map to find some.",
     new_resource_saved_dialog_warning: "Saved Location Locally. Login to GGMN to sync.",
     resource_name: "Groundwater Station",
     timeseries_name_title: (tsName: string) => {

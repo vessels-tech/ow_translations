@@ -74,6 +74,8 @@ export declare type GGMNTranslationOverrideFile = {
         resource_detail_new: string;
         resource_email_subject: string;
         resource_email_message: string;
+        connect_to_service_org_selector: string;
+        resource_detail_empty_hint: string;
     };
 };
 export declare type MyWellTranslationOverrideFile = {

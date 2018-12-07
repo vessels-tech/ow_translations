@@ -21,6 +21,7 @@ const ggmn_es_ES: TranslationOverrideFile = {
     new_reading_value_field_invalid: "Medición incorrecta",
     connect_to_service_description: "Conéctese a GGMN para crear nuevas estaciones de monitoreo de aguas subterráneas y para guardar mediciones desde su dispositivo.",
     connect_to_service_connected_test: (fieldName: string, username: string) => `Se encuentra conectado a GGMN con el ${fieldName}: ${username}`,
+    connect_to_service_org_selector: "Seleccione una organización",
     recent_resource_none: "No hay recursos recientes",
     resource_detail_new: "Nueva medición",
     sync_login_message: "Iniciar sesión para sincronizar con GGMN",
@@ -28,6 +29,7 @@ const ggmn_es_ES: TranslationOverrideFile = {
     sync_section_resources: "Estaciones de monitoreo de aguas subterráneas",
     sync_empty_content: "Ingresar mediciones o crear estaciones de monitoreo para empezar",
     resource_detail_empty_heading: "Todavía no ha encontrado estaciones de monitoreo",
+    resource_detail_empty_hint: "Presione el botón de búsqueda o navegue en el mapa para encontrar alguna.",
     new_resource_saved_dialog_warning: "Ubicación guardada localmente. Iniciar sesión en GGMN para sincronizar.",
     resource_name: "Estación de monitoreo de aguas subterráneas",
     timeseries_name_title: (tsName: string) => {

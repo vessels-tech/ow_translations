@@ -21,6 +21,7 @@ const ggmn_fr_FR: TranslationOverrideFile = {
     new_reading_value_field_invalid: "Mesure invalide",
     connect_to_service_description: "Connectez-vous au GGMN pour créer de nouvelles stations de suivi et enregistrer des mesures à partir de votre appareil mobile.",
     connect_to_service_connected_test: (fieldName: string, username: string) => `Vous êtes connecté au GGMN en tant que ${fieldName}: ${username}`,
+    connect_to_service_org_selector: "Sélectionner une organisation",
     recent_resource_none: "Pas de ressources récentes",
     resource_detail_new: "Nouvelle mesure",
     sync_login_message: "Identifiez-vous pour synchroniser votre appareil avec le GGMN.",
@@ -28,6 +29,7 @@ const ggmn_fr_FR: TranslationOverrideFile = {
     sync_section_resources: "Stations de suivi",
     sync_empty_content: "",
     resource_detail_empty_heading: "Aucune station de suivi n'a pu être trouvée pour l'instant.",
+    resource_detail_empty_hint: "Cliquez sur le bouton de recherche ou utiliser le navigateur de carte pour en trouver une.",
     new_resource_saved_dialog_warning: "La position a été sauvegardée localement. Identifiez-vous pour synchroniser votre appareil avec le GGMN.",
     resource_name: "Station de suivi",
     timeseries_name_title: (tsName: string) => {
