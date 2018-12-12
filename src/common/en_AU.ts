@@ -161,6 +161,14 @@ const en_AU: TranslationFile = {
     sync_screen_help_end: ". We'd be glad to assist you.",
     resource_email_subject: "GGMN Manual Resources",
     resource_email_message: "Here are your shapefile and csv files for manually syncing to GGMN. Go to https://www.un-igrac.org/ggis/ggmn-portal to get started.",
+    resource_loading_error: "Error loading resource",
+    timeseries_loading_error: "Error loading readings",
+    connect_to_login_error: "Error logging you in",
+    edit_resource_delete_modal_title: "Are You Sure?",
+    edit_resource_delete_modal_text: "Deleting this station will delete any associated readings, and cannot be undone.",
+    edit_resource_delete_modal_ok: "DELETE",
+    edit_resource_delete_modal_cancel: "CANCEL",
+    settings_pending_heading: "Save Pending Resources",
   }
 }
 

@@ -51,6 +51,8 @@ const ggmn_en_AU: TranslationOverrideFile = {
     sync_screen_help_end: ". We'd be glad to assist you.",
     resource_email_subject: "GGMN Manual Resources",
     resource_email_message: "Here are your shapefile and csv files for manually syncing to GGMN. Go to https://www.un-igrac.org/ggis/ggmn-portal to get started.",
+    resource_loading_error: "Error loading groundwater station",
+    edit_resource_delete_modal_text: "Deleting this station will delete any associated readings, and cannot be undone.",
   }
 }
 

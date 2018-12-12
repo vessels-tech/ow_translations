@@ -161,6 +161,14 @@ const hi_IN: TranslationFile = {
     sync_screen_help_end: "",
     resource_email_subject: "",
     resource_email_message: "",
+    resource_loading_error: "",
+    timeseries_loading_error: "",
+    connect_to_login_error: "",
+    edit_resource_delete_modal_title: "",
+    edit_resource_delete_modal_text: "",
+    edit_resource_delete_modal_ok: "",
+    edit_resource_delete_modal_cancel: "",
+    settings_pending_heading: "",
   }
 }
 

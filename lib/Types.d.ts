@@ -76,6 +76,8 @@ export declare type GGMNTranslationOverrideFile = {
         resource_email_message: string;
         connect_to_service_org_selector: string;
         resource_detail_empty_hint: string;
+        resource_loading_error: string;
+        edit_resource_delete_modal_text: string;
     };
 };
 export declare type MyWellTranslationOverrideFile = {
@@ -229,5 +231,13 @@ export declare type TranslationFile = {
         sync_screen_help_end: string;
         resource_email_subject: string;
         resource_email_message: string;
+        resource_loading_error: string;
+        timeseries_loading_error: string;
+        connect_to_login_error: string;
+        edit_resource_delete_modal_title: string;
+        edit_resource_delete_modal_text: string;
+        edit_resource_delete_modal_ok: string;
+        edit_resource_delete_modal_cancel: string;
+        settings_pending_heading: string;
     };
 };

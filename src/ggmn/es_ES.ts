@@ -51,6 +51,8 @@ const ggmn_es_ES: TranslationOverrideFile = {
     sync_screen_help_end: "",
     resource_email_subject: "",
     resource_email_message: "",
+    resource_loading_error: "",
+    edit_resource_delete_modal_text: "",
   }
 }
 
