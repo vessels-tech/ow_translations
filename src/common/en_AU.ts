@@ -101,7 +101,7 @@ const en_AU: TranslationFile = {
     }
   },
     resource_detail_heading_label: "ID: ",
-    timeseries_date_format: "YYYY-MM-DD",
+    timeseries_date_format: "DD-MM-YYYY",
     resource_detail_new_reading_button: "NEW READING",
     sync_manual_text: "Manual sync is required for some Stations and Measurements.",
     sync_manual_show_me_how: "Show Me How",

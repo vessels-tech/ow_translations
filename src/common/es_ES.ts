@@ -101,11 +101,11 @@ const es_ES: TranslationFile = {
     }
   },
     resource_detail_heading_label: "Código identificador:",
-    timeseries_date_format: "DD-MM-AAAA",
+    timeseries_date_format: "DD-MM-YYYY",
     resource_detail_new_reading_button: "NUEVA MEDICIÓN",
     sync_manual_text: "Las estaciones de monitoreo deben ser sincronizadas manualmente",
     sync_manual_show_me_how: "Muéstrame cómo",
-    sync_date_format: "DD-MM-AAAA",
+    sync_date_format: "DD-MM-YYYY",
     sync_error_station_not_created: "La estación no ha sido creada todavía",
     sync_error_get_timeseries_id_transport: "La solicitud ha fallado o el tiempo de espera se ha agotado. Por favor inténtelo otra vez.",
     sync_error_get_timeseries_id_none: "No se encontraron series de datos",

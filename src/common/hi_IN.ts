@@ -101,11 +101,11 @@ const hi_IN: TranslationFile = {
     }
   },
     resource_detail_heading_label: "ID: ",
-    timeseries_date_format: "YYYY-MM-DD",
+    timeseries_date_format: "DD-MM-YYYY",
     resource_detail_new_reading_button: "NEW READING",
     sync_manual_text: "GROUNDWATER STATIONS NEED TO BE SYNCED MANUALLY",
     sync_manual_show_me_how: "SHOW ME HOW",
-    sync_date_format: "YYYY-MM-DD",
+    sync_date_format: "DD-MM-YYYY",
     sync_error_station_not_created: "STATION HASN'T BEEN CREATED YET.",
     sync_error_get_timeseries_id_transport: "REQUEST FAILED OR TIMED OUT. PLEASE TRY AGAIN.",
     sync_error_get_timeseries_id_none: "COULD NOT FIND TIMESERIES",
