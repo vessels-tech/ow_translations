@@ -50,7 +50,7 @@ const ggmn_en_AU: TranslationOverrideFile = {
     sync_screen_help_email: "claudia.ruz-vargas@un-igrac.org",
     sync_screen_help_end: ". We'd be glad to assist you.",
     resource_email_subject: "GGMN Manual Resources",
-    resource_email_message: "Here are your shapefile and csv files for manually syncing to GGMN. <br/>Go to https://www.un-igrac.org/ggis/ggmn-portal to get started. <br/><strong>Note:</strong>If a new well has the same id as one that already exists in GGMN, the newly created well will be deleted and the new measurements will be added to the existing well, so please be sure that all your wells have a unique ID",
+    resource_email_message: "Here are your shapefile and csv files for manually syncing to GGMN. <br/>Go to https://ggmn.un-igrac.org/ to get started. <br/><strong>Note:</strong>If a new well has the same id as one that already exists in GGMN, the newly created well will be deleted and the new measurements will be added to the existing well, so please be sure that all your wells have a unique ID",
     resource_loading_error: "Error loading groundwater station",
     edit_resource_delete_modal_text: "Deleting this station will delete any associated readings, and cannot be undone.",
   }

@@ -50,7 +50,7 @@ const ggmn_fr_FR: TranslationOverrideFile = {
     sync_screen_help_email: "",
     sync_screen_help_end: "",
     resource_email_subject: "GGMN Manual Resources",
-    resource_email_message: "Here are your shapefile and csv files for manually syncing to GGMN. <br/>Go to https://www.un-igrac.org/ggis/ggmn-portal to get started. <br/><strong>Note:</strong>If a new well has the same id as one that already exists in GGMN, the newly created well will be deleted and the new measurements will be added to the existing well, so please be sure that all your wells have a unique ID",
+    resource_email_message: "Here are your shapefile and csv files for manually syncing to GGMN. <br/>Go to https://ggmn.un-igrac.org/ to get started. <br/><strong>Note:</strong>If a new well has the same id as one that already exists in GGMN, the newly created well will be deleted and the new measurements will be added to the existing well, so please be sure that all your wells have a unique ID",
     resource_loading_error: "",
     edit_resource_delete_modal_text: "",
   }
