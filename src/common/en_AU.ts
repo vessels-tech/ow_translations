@@ -60,7 +60,7 @@ const en_AU: TranslationFile = {
     connect_to_service_connected_test: (fieldName: string, username: string) => `You are connected to MyWell with the ${fieldName}: ${username}`,
     connect_to_service_error: "Error signing in. Please try again",
     connect_to_service_org_selector: "N/A",
-    favourite_resource_heading: "FAVOURITES",
+    favourite_resource_heading: "Favourites",
     favourite_resource_hint_1: "Press the",
     favourite_resource_hint_2: "button to add a favourite",
     recent_resource_heading: "Recents",
@@ -169,6 +169,7 @@ const en_AU: TranslationFile = {
     edit_resource_delete_modal_ok: "DELETE",
     edit_resource_delete_modal_cancel: "CANCEL",
     settings_pending_heading: "Save Pending Resources",
+    new_resource_water_column_height: "Water Column Height",
   }
 }
 

@@ -239,5 +239,6 @@ export declare type TranslationFile = {
         edit_resource_delete_modal_ok: string;
         edit_resource_delete_modal_cancel: string;
         settings_pending_heading: string;
+        new_resource_water_column_height: string;
     };
 };

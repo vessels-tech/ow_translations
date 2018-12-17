@@ -36,17 +36,17 @@ const ggmn_en_AU: TranslationOverrideFile = {
     switch (tsName.toLowerCase()) {
       case 'gwmbgs': return `Groundwater level below ground surface`
       case 'gwmmsl':
-      default: return `Groundwater level below ground surface`
+      default: return `Groundwater level above mean sea level`
     }
   },
-    sync_manual_text: "Groundwater Stations need to be synced manually",
+    sync_manual_text: "New groundwater stations need to be synced manually",
     sync_screen_heading: "In order to finish saving your groundwater stations to GGMN, you need to manually register them on the GGMN site.",
     sync_screen_step_1_body: "Click the 'Send Email' button below to send an email to your GGMN account. This email will contain the shapefiles needed to register the groundwater stations",
-    sync_screen_step_2_body: "Once you have recieved the email, log into GGMN at https://ggmn.un-igrac.org/ and select 'Upload' in the top right corner. ",
-    sync_screen_step_3_body: "Scroll down to 'Import a SufHyd or shape File' select the organisation your account is associated with, and the file from the email.",
-    sync_screen_step_4_body: "Once this is done, log back into GGMN on your device, and you will see that resources have changed color, and and pending readings will start to save. If a new well has the same id as one that already exists in GGMN, the newly created well will be deleted and the new measurements will be added to the existing well, so please be sure that all your wells have a unique ID",
+    sync_screen_step_2_body: "Once you have received the email, log into GGMN at https://ggmn.un-igrac.org/ and upload the files to your organisation as always.",
+    sync_screen_step_3_body: "Log back into GGMN on your device, and you will see that the new wells have changed color, and that the pending readings will start to save",
+    sync_screen_step_4_body: "",
     sync_screen_help_body: "Just reach out to Claudia at",
-    sync_screen_step_5_body: "Once this is done, log back into GGMN on your device, and you will see that the groundwater stations have changed color, and pending readings will start to save.",
+    sync_screen_step_5_body: "",
     sync_screen_help_email: "claudia.ruz-vargas@un-igrac.org",
     sync_screen_help_end: ". We'd be glad to assist you.",
     resource_email_subject: "GGMN Manual Resources",

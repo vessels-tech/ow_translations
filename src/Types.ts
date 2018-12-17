@@ -94,7 +94,6 @@ export type GGMNTranslationOverrideFile = {
     resource_detail_empty_hint: string,
     resource_loading_error: string,
     edit_resource_delete_modal_text: string,
-    new_resource_water_column_height: string,
   }
 }
 
@@ -261,6 +260,7 @@ export type TranslationFile = {
     edit_resource_delete_modal_ok: string,
     edit_resource_delete_modal_cancel: string,
     settings_pending_heading: string,
+    new_resource_water_column_height: string,
   }
 
 }

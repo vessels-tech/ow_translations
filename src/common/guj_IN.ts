@@ -169,6 +169,7 @@ const guj_IN: TranslationFile = {
     edit_resource_delete_modal_ok: "",
     edit_resource_delete_modal_cancel: "",
     settings_pending_heading: "",
+    new_resource_water_column_height: "",
   }
 }
 
