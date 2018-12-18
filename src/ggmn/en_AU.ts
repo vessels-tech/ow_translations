@@ -41,7 +41,7 @@ const ggmn_en_AU: TranslationOverrideFile = {
   },
     sync_manual_text: "New groundwater stations need to be synced manually",
     sync_screen_heading: "In order to finish saving your groundwater stations to GGMN, you need to manually register them on the GGMN site.",
-    sync_screen_step_1_body: "Click the 'Send Email' button below to send an email to your GGMN account. This email will contain the shapefiles needed to register the groundwater stations",
+    sync_screen_step_1_body: "Click the 'Send Email' button below to send an email to your GGMN account. This email will contain the files needed to register the groundwater stations",
     sync_screen_step_2_body: "Once you have received the email, log into GGMN at https://ggmn.un-igrac.org/ and upload the files to your organisation as always.",
     sync_screen_step_3_body: "Log back into GGMN on your device, and you will see that the new wells have changed color, and that the pending readings will start to save",
     sync_screen_step_4_body: "",

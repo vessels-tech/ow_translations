@@ -34,20 +34,20 @@ const ggmn_fr_FR: TranslationOverrideFile = {
     resource_name: "Station de suivi",
     timeseries_name_title: (tsName: string) => {
     switch (tsName.toLowerCase()) {
-      case 'gwmbgs': return `Groundwater level below ground surface`
+      case 'gwmbgs': return `Groundwater level below ground surface in french`
       case 'gwmmsl':
-      default: return `Groundwater level below ground surface`
+      default: return `Groundwater level above mean sea level in french`
     }
   },
     sync_manual_text: "Les stations de suivi doivent être synchronisées manuellement",
     sync_screen_heading: "Pour finir d'enregistrer les stations de suivi dans le GGMN, veuillez les enregistrer manuellenet sur le site du GGMN.",
     sync_screen_step_1_body: "Cliquez sur 'Envoyer un courriel' ci-dessous pour envoyer un courriel à votre compte GGMN. Le courriel contiendra les fichiers shapefile nécessaires à l'enregistrement des stations.",
-    sync_screen_step_2_body: "Après réception du courriel, connectez-vous au GGMN sur https://ggmn.un-igrac.org/ and sélectionnez 'Téléverser' dans le coin supérieur droit.",
-    sync_screen_step_3_body: "Défilez vers le bas jusqu'à 'Importer un fichier SufHyd ou shapefile'. Sélectionnez l'organisation à laquelle votre compte est associé, ainsi que le fichier du courriel.",
-    sync_screen_step_4_body: "Ensuite, connectez-vous au GGMN sur votre appareil mobile. Les stations de suivi auront changé de couleur, et les mesures en attente vont être enregistrées.",
+    sync_screen_step_2_body: "",
+    sync_screen_step_3_body: "",
+    sync_screen_step_4_body: "",
     sync_screen_help_body: "Contactez ____ via ____. Nous ferons de notre mieux pour vous aider.",
-    sync_screen_step_5_body: "Ensuite, connectez-vous au GGMN sur votre appareil mobile. Les stations de suivi auront changé de couleur, et les mesures en attente vont être enregistrées.",
-    sync_screen_help_email: "",
+    sync_screen_step_5_body: "",
+    sync_screen_help_email: "claudia.ruz-vargas@un-igrac.org",
     sync_screen_help_end: "",
     resource_email_subject: "GGMN Manual Resources",
     resource_email_message: "Here are your shapefile and csv files for manually syncing to GGMN. <br/>Go to https://ggmn.un-igrac.org/ to get started. <br/><strong>Note:</strong>If a new well has the same id as one that already exists in GGMN, the newly created well will be deleted and the new measurements will be added to the existing well, so please be sure that all your wells have a unique ID",
