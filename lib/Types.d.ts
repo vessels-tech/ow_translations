@@ -78,6 +78,8 @@ export declare type GGMNTranslationOverrideFile = {
         resource_detail_empty_hint: string;
         resource_loading_error: string;
         edit_resource_delete_modal_text: string;
+        sync_screen_step_4_heading: string;
+        sync_screen_step_5_heading: string;
     };
 };
 export declare type MyWellTranslationOverrideFile = {
