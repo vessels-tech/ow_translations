@@ -169,7 +169,7 @@ const es_ES: TranslationFile = {
     edit_resource_delete_modal_ok: "ELIMINAR",
     edit_resource_delete_modal_cancel: "CANCELAR",
     settings_pending_heading: "Guardar recursos pendientes",
-    new_resource_water_column_height: "Elevación:",
+    new_resource_water_column_height: "Elevación (m):",
   }
 }
 
