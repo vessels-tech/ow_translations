@@ -266,8 +266,7 @@ export type TranslationFile = {
     pending_status_rejected: string,
     pending_status_unapproved: string,
     pending_status_approved: string,
-    resource_detail_sync_required: string 
-
+    resource_detail_sync_required: string
   }
 
 }
