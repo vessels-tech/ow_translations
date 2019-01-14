@@ -242,5 +242,9 @@ export declare type TranslationFile = {
         edit_resource_delete_modal_cancel: string;
         settings_pending_heading: string;
         new_resource_water_column_height: string;
+        pending_status_rejected: string;
+        pending_status_unapproved: string;
+        pending_status_approved: string;
+        resource_detail_sync_required: string;
     };
 };

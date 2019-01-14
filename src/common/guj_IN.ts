@@ -170,6 +170,10 @@ const guj_IN: TranslationFile = {
     edit_resource_delete_modal_cancel: "",
     settings_pending_heading: "",
     new_resource_water_column_height: "",
+    pending_status_rejected: "",
+    pending_status_unapproved: "",
+    pending_status_approved: "",
+    resource_detail_sync_required: "",
   }
 }
 
