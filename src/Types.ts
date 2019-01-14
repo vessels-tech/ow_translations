@@ -263,6 +263,12 @@ export type TranslationFile = {
     edit_resource_delete_modal_cancel: string,
     settings_pending_heading: string,
     new_resource_water_column_height: string,
+
+    pending_status_rejected: string, // "Your account has been suspended. You won't be able to save anything until an administrator fixes your account.";
+    pending_status_unapproved: string, // "Your account is still waiting for approval. If it's been too long, reach out to an administrator at ____ to rectify the problem.";
+    pending_status_approved: string, // "Your account is approved! Your readings and resources will be synced shortly, or you can sync manually now.";
+    resource_detail_sync_required: string // "This location needs to be synced before you can save any readings.";
+
   }
 
 }
