@@ -170,6 +170,10 @@ const es_ES: TranslationFile = {
     edit_resource_delete_modal_cancel: "CANCELAR",
     settings_pending_heading: "Guardar recursos pendientes",
     new_resource_water_column_height: "Elevación (m):",
+    pending_status_rejected: "",
+    pending_status_unapproved: "",
+    pending_status_approved: "",
+    resource_detail_sync_required: "",
   }
 }
 
