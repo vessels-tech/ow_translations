@@ -55,7 +55,7 @@ const ggmn_fr_FR: TranslationOverrideFile = {
     resource_email_message: "Voici votre shapefile et vos fichiers csv pour la synchronisation manuelle au GGMN. <br/>Allez sur https://ggmn.un-igrac.org/ pour commencer. <br/><strong>Attention:</strong>Si une station a un identifiant déjà attribué, la nouvelle station sera supprimée et les mesures seront ajoutées à la station existante. Vérifiez que vos stations ont des identifiants distincts.",
     resource_loading_error: "Erreur de chargement de la station",
     edit_resource_delete_modal_text: "Supprimer cette station entraînera la suppression définitive des mesures.",
-    about_html: "",
+    about_html: "<p>Test 1</p>",
     settings_about: "",
   }
 }
