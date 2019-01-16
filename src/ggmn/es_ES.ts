@@ -55,6 +55,8 @@ const ggmn_es_ES: TranslationOverrideFile = {
     resource_email_message: "Aquí estan sus archivos shapefile y csv para sincronizar manualmente con GGMN. <br/>Vaya a https://ggmn.un-igrac.org/ para empezar. <br/><strong>Nota: </strong>Si una nueva estación tiene el mismo código identificador (ID) que una estación existente en GGMN, la nueva estación será eliminada y las nuevas mediciones se agregarán a la estación existente. Por lo tanto, por favor asegúrese de que todas sus estacions tienen un único código identificador",
     resource_loading_error: "Error guardando la estación",
     edit_resource_delete_modal_text: "Eliminar esta estación eliminará todas las mediciones asociadas. Este proceso no es reversible.",
+    about_html: "",
+    settings_about: "",
   }
 }
 
