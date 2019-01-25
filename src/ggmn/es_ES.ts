@@ -55,8 +55,8 @@ const ggmn_es_ES: TranslationOverrideFile = {
     resource_email_message: "Aquí estan sus archivos shapefile y csv para sincronizar manualmente con GGMN. <br/>Vaya a https://ggmn.un-igrac.org/ para empezar. <br/><strong>Nota: </strong>Si una nueva estación tiene el mismo código identificador (ID) que una estación existente en GGMN, la nueva estación será eliminada y las nuevas mediciones se agregarán a la estación existente. Por lo tanto, por favor asegúrese de que todas sus estacions tienen un único código identificador",
     resource_loading_error: "Error guardando la estación",
     edit_resource_delete_modal_text: "Eliminar esta estación eliminará todas las mediciones asociadas. Este proceso no es reversible.",
-    about_html: "",
-    settings_about: "",
+    about_html: "<p>La Red Global de Monitoreo de Aguas Subterráneas, o GGMN por sus siglas en inglés, es una red de redes participativa, creada para mejorar la accesibilidad a la información obtenida mediante el monitoreo de este recurso, y así, mejorar nuestro conocimiento sobre el estado de las aguas subterráneas a nivel global. GGMN es un programa de la UNESCO, implementado por el Centro Internacional de Evaluación de Recursos de Agua Subterránea (IGRAC por sus siglas en inglés) y apoyado por socios globales y regionales.</p></br><strong>El Portal GGMN</strong></br><p>El portal GGMN (<a href='https://ggmn.un-igrac.org/'>https://ggmn.un-igrac.org/</a>) es una herramienta para el análisis espacial y temporal de los datos de monitoreo y puede configurarse para su propia organización y/o proyectos. Los datos se pueden configurar para que sean privados (solo accesibles para usuarios autorizados) o públicos.</p></br><strong>¡Únete a la red!</strong></br><p>Si desea formar parte del programa GGMN y hacer uso del portal web junto con la aplicación, contáctenos a <a href='mailto:info@un-igrac.org'>info@un-igrac.org</a> para obtener más información, o visite nuestro sitio web https://www.un-igrac.org/. De lo contrario, empiece a usar la aplicación libremente para almacenar datos piezométricos de agua subterránea en su teléfono'.</p>",
+    settings_about: "Sobre la GGMN",
   }
 }
 
