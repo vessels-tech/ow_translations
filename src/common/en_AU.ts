@@ -174,6 +174,8 @@ const en_AU: TranslationFile = {
     pending_status_unapproved: "Your account is still waiting for approval. If it's been too long, reach out to an administrator at ____ to rectify the problem.",
     pending_status_approved: "Your account is approved! Your readings and resources will be synced shortly, or you can sync manually now.",
     resource_detail_sync_required: "Location needs to be synced before you can save any readings.",
+    about_html: "<p>About MyWell<p>",
+    settings_about: "ABOUT MYWELL",
   }
 }
 

@@ -96,6 +96,8 @@ export type GGMNTranslationOverrideFile = {
     edit_resource_delete_modal_text: string,
     sync_screen_step_4_heading: string,
     sync_screen_step_5_heading: string,
+    about_html: string,
+    settings_about: string,
   }
 }
 
@@ -267,6 +269,9 @@ export type TranslationFile = {
     pending_status_unapproved: string,
     pending_status_approved: string,
     resource_detail_sync_required: string
+    about_html: string,
+    settings_about: string,
+
   }
 
 }

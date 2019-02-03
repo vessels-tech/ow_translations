@@ -174,6 +174,8 @@ const test_UPPER: TranslationFile = {
     pending_status_unapproved: "",
     pending_status_approved: "",
     resource_detail_sync_required: "",
+    about_html: "",
+    settings_about: "",
   }
 }
 
