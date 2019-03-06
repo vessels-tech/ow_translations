@@ -176,6 +176,7 @@ const fr_FR: TranslationFile = {
     resource_detail_sync_required: "",
     about_html: "",
     settings_about: "<p>Test 1</p>",
+    powered_by_html: "",
   }
 }
 

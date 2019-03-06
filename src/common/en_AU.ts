@@ -176,6 +176,7 @@ const en_AU: TranslationFile = {
     resource_detail_sync_required: "Location needs to be synced before you can save any readings.",
     about_html: "<p>About MyWell<p>",
     settings_about: "ABOUT MYWELL",
+    powered_by_html: "",
   }
 }
 

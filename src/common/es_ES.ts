@@ -176,6 +176,7 @@ const es_ES: TranslationFile = {
     resource_detail_sync_required: "",
     about_html: "",
     settings_about: "",
+    powered_by_html: "",
   }
 }
 

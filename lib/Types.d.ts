@@ -82,6 +82,7 @@ export declare type GGMNTranslationOverrideFile = {
         sync_screen_step_5_heading: string;
         about_html: string;
         settings_about: string;
+        powered_by_html: string;
     };
 };
 export declare type MyWellTranslationOverrideFile = {
@@ -250,5 +251,6 @@ export declare type TranslationFile = {
         resource_detail_sync_required: string;
         about_html: string;
         settings_about: string;
+        powered_by_html: string;
     };
 };
