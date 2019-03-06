@@ -95,9 +95,9 @@ const hi_IN: TranslationFile = {
     calendar_input_cancel: "",
     timeseries_name_title: (tsName: string) => {
     switch (tsName.toLowerCase()) {
-      case 'gwmbgs': return `Groundwater level below ground surface`
+      case 'gwmbgs': return ``
       case 'gwmmsl':
-      default: return `Groundwater level below ground surface`
+      default: return ``
     }
   },
     resource_detail_heading_label: "ID: ",

@@ -95,9 +95,9 @@ const en_US: TranslationFile = {
     calendar_input_cancel: "",
     timeseries_name_title: (tsName: string) => {
     switch (tsName.toLowerCase()) {
-      case 'gwmbgs': return `Groundwater level below ground surface`
+      case 'gwmbgs': return ``
       case 'gwmmsl':
-      default: return `Groundwater level below ground surface`
+      default: return ``
     }
   },
     resource_detail_heading_label: "ID: ",
@@ -147,7 +147,7 @@ const en_US: TranslationFile = {
     menu_well: "WELLS",
     menu_rainfall: "RAINFALL",
     menu_water_quality: "WATER QUALITY",
-    menu_checkdam: "CHECKDAMS",
+    menu_checkdam: "CHECK DAMS",
     scan_hint: "",
     sync_screen_step_5_heading: "",
     sync_screen_step_5_body: "",

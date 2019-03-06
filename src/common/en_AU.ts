@@ -95,9 +95,9 @@ const en_AU: TranslationFile = {
     calendar_input_cancel: "CANCEL",
     timeseries_name_title: (tsName: string) => {
     switch (tsName.toLowerCase()) {
-      case 'gwmbgs': return `Depth to water Level`
+      case 'gwmbgs': return ``
       case 'gwmmsl':
-      default: return `Depth to water Level`
+      default: return ``
     }
   },
     resource_detail_heading_label: "ID: ",
@@ -147,7 +147,7 @@ const en_AU: TranslationFile = {
     menu_well: "WELLS",
     menu_rainfall: "RAINFALL",
     menu_water_quality: "WATER QUALITY",
-    menu_checkdam: "CHECKDAMS",
+    menu_checkdam: "CHECK DAMS",
     scan_hint: "Scan for a Location using a QR Code",
     sync_screen_step_5_heading: "Step 5.",
     sync_screen_step_5_body: "Once this is done, log back into GGMN on your device, and you will see that the groundwater stations have changed color, and and pending readings will start to save.",
