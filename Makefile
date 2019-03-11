@@ -5,6 +5,7 @@
 
 PATH := node_modules/.bin:$(PATH)
 dir = $(shell pwd)
+NPM_VERSION_NUMBER := $(shell node ./tools/getVersionNumber.js)
 
 
 all: parse build push publish update
