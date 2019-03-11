@@ -6,14 +6,13 @@ function getTemplateStrings(translations: { [index: string]: [string, Translatio
   delete translations['language'];
   delete translations['region'];
 
-
   const rows = Object.keys(translations).map(key => {
     const [value, type] = translations[key];
     if (type === TranslationRowType.function) {
       //No need for quotes for function based rows
       return `    ${key}: ${value},`
     }
-    return `    ${key}: "${value}",`
+    return `    ${key}: "${value.replace(/\n/g, "")}",`
   });
   return rows.reduce((acc: string, curr: string) => {
     return acc + '\n' + curr;
