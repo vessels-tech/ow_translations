@@ -84,7 +84,7 @@ const fr_FR: TranslationFile = {
     new_resource_lat: "Latitude",
     new_resource_lng: "Longitude",
     new_resource_asset_type_label: "Type de station",
-    new_resource_owner_name_label: "Nom du propriétaire",
+    new_resource_owner_name_label: "Nom du propriétaire*",
     new_resource_submit_button: "Envoyer",
     resource_detail_name_label: "Nom",
     new_resource_id: "Identifiant",
@@ -140,8 +140,8 @@ const fr_FR: TranslationFile = {
     connect_to_signed_in_heading: "Vous êtes connecté.",
     connect_to_edit: "Modifier",
     connect_to_name_label: "Nom",
-    connect_to_nickname_label: "Nom (court)",
-    connect_to_email_label: "Courriel",
+    connect_to_nickname_label: "",
+    connect_to_email_label: "",
     connect_to_profile_mobile: "Mobile",
     connect_to_sign_out: "Sortir",
     menu_well: "Puits",
@@ -177,6 +177,38 @@ const fr_FR: TranslationFile = {
     about_html: "",
     settings_about: "<p>Test 1</p>",
     powered_by_html: "",
+    long_date_format: "",
+    default_datetime_format: "",
+    pending_resource_heading: "",
+    resource_detail_owner_section: "",
+    resource_detail_owner_name: "",
+    open_url_error: "",
+    edit_readings_no_readings: "",
+    edit_readings_new_reading: "",
+    settings_map: "",
+    menu_browse_text: "",
+    menu_scan_text: "",
+    menu_search_text: "",
+    menu_new_text: "",
+    country_label: "",
+    pincode_invalid_message: "",
+    connect_to_edit_heading: "",
+    connect_to_invalid_message: "",
+    unapproved: "",
+    approved: "",
+    rejected: "",
+    unapproved_description: "",
+    approved_description: "",
+    rejected_description: "",
+    formatSubtitlekey: (key: string) => { 
+  switch (key) {
+    case 'legacyResourceId': return 'OldId';
+    case 'pincode': return 'Pincode';
+    case 'country': return 'Country';
+   default:
+   return key;
+  }
+},
   }
 }
 

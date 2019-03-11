@@ -84,7 +84,7 @@ const guj_IN: TranslationFile = {
     new_resource_lat: "અક્ષાંશ",
     new_resource_lng: "રેખાંશ",
     new_resource_asset_type_label: "પ્રકારનો પ્રકાર વાંચો",
-    new_resource_owner_name_label: "માલિકનું નામ",
+    new_resource_owner_name_label: "માલિકનું નામ*",
     new_resource_submit_button: "સબમિટ કરો",
     resource_detail_name_label: "",
     new_resource_id: "",
@@ -140,8 +140,8 @@ const guj_IN: TranslationFile = {
     connect_to_signed_in_heading: "ટેક્સ્ટ મળ્યો નથી?",
     connect_to_edit: "તમે સાઇન ઇન કર્યું છે.",
     connect_to_name_label: "સંપાદિત કરો",
-    connect_to_nickname_label: "પૂરું નામ",
-    connect_to_email_label: "ટુકુ નામ",
+    connect_to_nickname_label: "",
+    connect_to_email_label: "",
     connect_to_profile_mobile: "EMAIL",
     connect_to_sign_out: "મોબાઇલ",
     menu_well: "સાઇન આઉટ કરો",
@@ -177,6 +177,38 @@ const guj_IN: TranslationFile = {
     about_html: "",
     settings_about: "",
     powered_by_html: "",
+    long_date_format: "",
+    default_datetime_format: "",
+    pending_resource_heading: "",
+    resource_detail_owner_section: "",
+    resource_detail_owner_name: "",
+    open_url_error: "",
+    edit_readings_no_readings: "",
+    edit_readings_new_reading: "",
+    settings_map: "",
+    menu_browse_text: "",
+    menu_scan_text: "",
+    menu_search_text: "",
+    menu_new_text: "",
+    country_label: "",
+    pincode_invalid_message: "",
+    connect_to_edit_heading: "",
+    connect_to_invalid_message: "",
+    unapproved: "",
+    approved: "",
+    rejected: "",
+    unapproved_description: "",
+    approved_description: "",
+    rejected_description: "",
+    formatSubtitlekey: (key: string) => { 
+  switch (key) {
+    case 'legacyResourceId': return "OldId";
+    case 'pincode': return 'Pincode';
+    case 'country': return 'Country';
+   default:
+   return key;
+  }
+},
   }
 }
 

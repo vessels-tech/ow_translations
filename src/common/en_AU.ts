@@ -84,7 +84,7 @@ const en_AU: TranslationFile = {
     new_resource_lat: "Latitude",
     new_resource_lng: "Longitude",
     new_resource_asset_type_label: "Reading Location Type",
-    new_resource_owner_name_label: "Owner Name",
+    new_resource_owner_name_label: "Owner Name*",
     new_resource_submit_button: "SUBMIT",
     resource_detail_name_label: "Name:",
     new_resource_id: "Id",
@@ -177,6 +177,38 @@ const en_AU: TranslationFile = {
     about_html: "<p>About MyWell<p>",
     settings_about: "ABOUT MYWELL",
     powered_by_html: "",
+    long_date_format: "DD-MM-YYYY h:mm",
+    default_datetime_format: "HH:MM DD/MM/Y",
+    pending_resource_heading: "Pending Resources",
+    resource_detail_owner_section: "About:",
+    resource_detail_owner_name: "Owner Name",
+    open_url_error: "Can' open url",
+    edit_readings_no_readings: "No Pending Readings for this Station",
+    edit_readings_new_reading: "New Reading",
+    settings_map: "Browse on Ma",
+    menu_browse_text: "Browse",
+    menu_scan_text: "Scan",
+    menu_search_text: "Search",
+    menu_new_text: "New",
+    country_label: "Country",
+    pincode_invalid_message: "Pincode is not valid",
+    connect_to_edit_heading: "Tell Us More About Yourself",
+    connect_to_invalid_message: "is not valid.",
+    unapproved: "unapproved",
+    approved: "approved",
+    rejected: "rejected",
+    unapproved_description: "We're still waiting for an admin to verify your account.",
+    approved_description: "Your account is approved! Feel free to sync measurements and locations now.",
+    rejected_description: "Your account has been rejected. Reach out to ___@___ to learn more.",
+    formatSubtitlekey: (key: string) => { 
+  switch (key) {
+    case 'legacyResourceId': return "OldId";
+    case 'pincode': return 'Pincode';
+    case 'country': return 'Country';
+   default:
+   return key;
+  }
+},
   }
 }
 

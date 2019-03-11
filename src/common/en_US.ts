@@ -140,8 +140,8 @@ const en_US: TranslationFile = {
     connect_to_signed_in_heading: "YOU ARE SIGNED IN.",
     connect_to_edit: "EDIT",
     connect_to_name_label: "FULL NAME",
-    connect_to_nickname_label: "SHORT NAME",
-    connect_to_email_label: "EMAIL",
+    connect_to_nickname_label: "",
+    connect_to_email_label: "",
     connect_to_profile_mobile: "MOBILE",
     connect_to_sign_out: "SIGN OUT",
     menu_well: "WELLS",
@@ -177,6 +177,38 @@ const en_US: TranslationFile = {
     about_html: "",
     settings_about: "",
     powered_by_html: "",
+    long_date_format: "",
+    default_datetime_format: "",
+    pending_resource_heading: "",
+    resource_detail_owner_section: "",
+    resource_detail_owner_name: "",
+    open_url_error: "",
+    edit_readings_no_readings: "",
+    edit_readings_new_reading: "",
+    settings_map: "",
+    menu_browse_text: "",
+    menu_scan_text: "",
+    menu_search_text: "",
+    menu_new_text: "",
+    country_label: "",
+    pincode_invalid_message: "",
+    connect_to_edit_heading: "",
+    connect_to_invalid_message: "",
+    unapproved: "",
+    approved: "",
+    rejected: "",
+    unapproved_description: "",
+    approved_description: "",
+    rejected_description: "",
+    formatSubtitlekey: (key: string) => { 
+  switch (key) {
+    case 'legacyResourceId': return "OldId";
+    case 'pincode': return 'Pincode';
+    case 'country': return 'Country';
+   default:
+   return key;
+  }
+},
   }
 }
 

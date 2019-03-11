@@ -84,7 +84,7 @@ const hi_IN: TranslationFile = {
     new_resource_lat: "अक्षांश",
     new_resource_lng: "देशान्तर",
     new_resource_asset_type_label: "रीडिंग स्थान का प्रकार",
-    new_resource_owner_name_label: "मालिक का नाम",
+    new_resource_owner_name_label: "मालिक का नाम*",
     new_resource_submit_button: "जमा करें",
     resource_detail_name_label: "",
     new_resource_id: "",
@@ -140,8 +140,8 @@ const hi_IN: TranslationFile = {
     connect_to_signed_in_heading: "आप में साइन इन हैं",
     connect_to_edit: "संपादित करें",
     connect_to_name_label: "पूरा नाम",
-    connect_to_nickname_label: "संक्षिप्त नाम",
-    connect_to_email_label: "ईमेल",
+    connect_to_nickname_label: "",
+    connect_to_email_label: "",
     connect_to_profile_mobile: "मोबाइल",
     connect_to_sign_out: "साइन आउट",
     menu_well: "कुंआ",
@@ -177,6 +177,38 @@ const hi_IN: TranslationFile = {
     about_html: "",
     settings_about: "",
     powered_by_html: "",
+    long_date_format: "",
+    default_datetime_format: "",
+    pending_resource_heading: "",
+    resource_detail_owner_section: "",
+    resource_detail_owner_name: "",
+    open_url_error: "",
+    edit_readings_no_readings: "",
+    edit_readings_new_reading: "",
+    settings_map: "",
+    menu_browse_text: "",
+    menu_scan_text: "",
+    menu_search_text: "",
+    menu_new_text: "",
+    country_label: "",
+    pincode_invalid_message: "",
+    connect_to_edit_heading: "",
+    connect_to_invalid_message: "",
+    unapproved: "",
+    approved: "",
+    rejected: "",
+    unapproved_description: "",
+    approved_description: "",
+    rejected_description: "",
+    formatSubtitlekey: (key: string) => { 
+  switch (key) {
+    case 'legacyResourceId': return "OldId";
+    case 'pincode': return 'Pincode';
+    case 'country': return 'Country';
+   default:
+   return key;
+  }
+},
   }
 }
 
