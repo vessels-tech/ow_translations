@@ -276,5 +276,6 @@ export declare type TranslationFile = {
         rejected_description: string;
         resource_detail_sync_required: string;
         formatSubtitlekey: (key: string) => string;
+        about_html_url: string;
     };
 };

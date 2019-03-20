@@ -175,7 +175,7 @@ const hi_IN: TranslationFile = {
     pending_status_approved: "Your account is approved! Your readings and resources will be synced shortly, or you can sync manually now.",
     resource_detail_sync_required: "Location needs to be synced before you can save any readings.",
     about_html: "<h2>MyWell</h2>",
-    settings_about: "ABOUT MYWELL",
+    settings_about: "",
     powered_by_html: "",
     long_date_format: "DD-MM-YYYY h:mm",
     default_datetime_format: "HH:MM DD/MM/Y",
@@ -209,6 +209,7 @@ const hi_IN: TranslationFile = {
    return key;
   }
 },
+    about_html_url: "https://our-water-dev.firebaseapp.com/about_mywell_en.html",
   }
 }
 
