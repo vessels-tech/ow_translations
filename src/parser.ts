@@ -130,7 +130,6 @@ function getSheetAsJson(sheetId: string): Promise<SheetsResponse> {
 
 function sheetsResponseToRows(response: SheetsResponse): TranslationRow[] {
   const perRowTranslations: TranslationRow[] = [];
-
   response.feed.entry.forEach((r: SheetsRow) => {
     const row: TranslationRow = {
       id: r.title.$t,
