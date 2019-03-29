@@ -210,6 +210,22 @@ const es_ES: TranslationFile = {
   }
 },
     about_html_url: "https://our-water-dev.firebaseapp.com/about_mywell_en.html",
+    reading_image_url_builder: (id: string) => `https://us-central1-our-water-dev.cloudfunctions.net/public/mywell/image/${id}`,
+    select_language_popup: (language: string) => `Changed Language to: ${language}`,
+    new_label: "",
+    rainfall_total_heading: "",
+    rainfall_total_subtitle: "",
+    rainfall_total_content_subtitle: "",
+    legend_text_year_one: "",
+    legend_text_year_two: "",
+    legend_text_year_three: "",
+    load_location_error_message: "",
+    resource_detail_placeholder_url: "",
+    sync_error_message: "",
+    connect_to_must_accept_conditions: "",
+    connect_to_service_conditions: "",
+    take_picture_error_message: "",
+    add_image_text: "",
   }
 }
 
