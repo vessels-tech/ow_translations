@@ -147,7 +147,7 @@ const en_US: TranslationFile = {
     menu_well: "WELLS",
     menu_rainfall: "RAINFALL",
     menu_water_quality: "WATER QUALITY",
-    menu_checkdam: "CHECK DAMS",
+    menu_checkdam: "CHECK DAM",
     scan_hint: "Scan for a Location using a QR Code",
     sync_screen_step_5_heading: "",
     sync_screen_step_5_body: "",
