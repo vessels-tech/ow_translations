@@ -10,7 +10,7 @@ import { TranslationFile } from "../Types";
 const en_AU: TranslationFile = {
   metadata: {
     language: 'English',
-    region: 'Australia',
+    region: '',
   },
   templates: {
     app_resource_load_error: "Error loading locations. Please try again.",
