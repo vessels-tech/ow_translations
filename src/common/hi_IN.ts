@@ -9,8 +9,8 @@ import { TranslationFile } from "../Types";
 
 const hi_IN: TranslationFile = {
   metadata: {
-    language: 'hindi',
-    region: 'india',
+    language: 'Hindi',
+    region: 'India',
   },
   templates: {
     app_resource_load_error: "स्थानों को लोड करने में त्रुटि। कृपया पुन: प्रयास करें।",
@@ -209,7 +209,7 @@ const hi_IN: TranslationFile = {
  return key;
  }
  },
-    about_html_url: "https://our-water-dev.firebaseapp.com/about_mywell_en.html",
+    about_html_url: "https://our-water.firebaseapp.com/about_mywell_hi_in.html",
     reading_image_url_builder: (id: string) => `https://us-central1-our-water.cloudfunctions.net/public/mywell/image/${id}`,
     select_language_popup: (language: string) => `भाषा परिवर्तन: ${language}`,
     new_label: "नयी",

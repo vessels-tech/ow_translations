@@ -9,8 +9,8 @@ import { TranslationFile } from "../Types";
 
 const en_US: TranslationFile = {
   metadata: {
-    language: 'english',
-    region: 'united states',
+    language: 'English',
+    region: 'US',
   },
   templates: {
     app_resource_load_error: "Error loading reading locations. Please try again.",
@@ -209,7 +209,7 @@ const en_US: TranslationFile = {
    return key;
   }
 },
-    about_html_url: "https://our-water-dev.firebaseapp.com/about_mywell_en.html",
+    about_html_url: "https://our-water.firebaseapp.com/about_mywell_en.html",
     reading_image_url_builder: (id: string) => `https://us-central1-our-water.cloudfunctions.net/public/mywell/image/${id}`,
     select_language_popup: (language: string) => `Changed Language to: ${language}`,
     new_label: "",

@@ -144,7 +144,7 @@ const en_AU: TranslationFile = {
     connect_to_email_label: "Email",
     connect_to_profile_mobile: "Mobile",
     connect_to_sign_out: "SIGN OUT",
-    menu_well: "Wells",
+    menu_well: "Well",
     menu_rainfall: "Rainfall",
     menu_water_quality: "Water Quality",
     menu_checkdam: "Check Dams",
@@ -209,7 +209,7 @@ const en_AU: TranslationFile = {
    return key;
   }
 },
-    about_html_url: "https://our-water-dev.firebaseapp.com/about_mywell_en.html",
+    about_html_url: "https://our-water.firebaseapp.com/about_mywell_en.html",
     reading_image_url_builder: (id: string) => `https://us-central1-our-water.cloudfunctions.net/public/mywell/image/${id}`,
     select_language_popup: (language: string) => `Changed Language to: ${language}`,
     new_label: "New!",

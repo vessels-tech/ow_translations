@@ -9,8 +9,8 @@ import { TranslationFile } from "../Types";
 
 const guj_IN: TranslationFile = {
   metadata: {
-    language: 'gujarati',
-    region: 'india',
+    language: 'Gujarati',
+    region: 'India',
   },
   templates: {
     app_resource_load_error: "સ્થાનો લોડ કરવામાં ભૂલ ફરીથી પ્રયાસ કરો.",
@@ -209,7 +209,7 @@ const guj_IN: TranslationFile = {
  return key;
  }
  },
-    about_html_url: "https://our-water-dev.firebaseapp.com/about_mywell_en.html",
+    about_html_url: "https://our-water.firebaseapp.com/about_mywell_guj_in.html",
     reading_image_url_builder: (id: string) => `https://us-central1-our-water.cloudfunctions.net/public/mywell/image/${id}`,
     select_language_popup: (language: string) =>  `ભાષા બદલો: ${language}`,
     new_label: "નવું",
