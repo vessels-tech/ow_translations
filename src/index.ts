@@ -31,7 +31,7 @@ export function possibleTranslationsForOrg(orgId: TranslationOrg): TranslationEn
     case TranslationOrg.mywell: {
       return [
         TranslationEnum.en_AU,
-        TranslationEnum.en_US,
+        // TranslationEnum.en_US,
         TranslationEnum.guj_IN,
         TranslationEnum.hi_IN,
         //TODO: how to keep only in dev, but not production?
