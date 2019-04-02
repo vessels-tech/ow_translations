@@ -171,7 +171,7 @@ const en_AU: TranslationFile = {
     settings_pending_heading: "Save Pending Resources",
     new_resource_water_column_height: "Depth (m):",
     pending_status_rejected: "Your account has been suspended. You won't be able to save anything until an administrator fixes your account.",
-    pending_status_unapproved: "Your account is still waiting for approval. If it's been too long, reach out to an administrator at ____ to rectify the problem.",
+    pending_status_unapproved: "Your account is still waiting for approval. If it's been too long, reach out to an administrator at info@marvi.org.in to rectify the problem.",
     pending_status_approved: "Your account is approved! Your readings and resources will be synced shortly, or you can sync manually now.",
     resource_detail_sync_required: "Location needs to be synced before you can save any readings.",
     about_html: "",
@@ -199,7 +199,7 @@ const en_AU: TranslationFile = {
     rejected: "rejected",
     unapproved_description: "We're still waiting for an admin to verify your account.",
     approved_description: "Your account is approved! Feel free to sync measurements and locations now.",
-    rejected_description: "Your account has been rejected. Reach out to ___@___ to learn more.",
+    rejected_description: "Your account has been rejected. Reach out to info@marvi.org.in  to learn more.",
     formatSubtitlekey: (key: string) => { 
   switch (key) {
     case 'legacyResourceId': return "OldId";

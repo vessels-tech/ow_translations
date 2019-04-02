@@ -171,7 +171,7 @@ const hi_IN: TranslationFile = {
     settings_pending_heading: "विचाराधीन संसाधनों को बचाइए",
     new_resource_water_column_height: "गहराई  (मीटर):",
     pending_status_rejected: "आपका खाता निरस्त कर दिया गया है। जब तक कोई व्यवस्थापक आपके खाते को ठीक नहीं करता, तब तक आप कुछ भी बचा नहीं सकेंगे।",
-    pending_status_unapproved: "आपका खाता अभी भी अनुमोदन की प्रतीक्षा कर रहा है। यदि यह बहुत लंबा हो गया है, तो समस्या को ठीक करने के लिए ____ पर व्यवस्थापक संपर्क करे।",
+    pending_status_unapproved: "आपका खाता अभी भी अनुमोदन की प्रतीक्षा कर रहा है। यदि यह बहुत लंबा हो गया है, तो समस्या को ठीक करने के लिए info@marvi.org.in पर व्यवस्थापक संपर्क करे।",
     pending_status_approved: "आपका खाता स्वीकृत है! आपके रीडिंग और संसाधन शीघ्र ही सिंक हो जाएंगे, या अब आप स्वयं भी सिंक कर सकते हैं।",
     resource_detail_sync_required: "किसी भी रीडिंग को सहेजने से पहले स्थान को सिंक करना होगा।",
     about_html: "",
@@ -199,7 +199,7 @@ const hi_IN: TranslationFile = {
     rejected: "अस्वीकार",
     unapproved_description: "हम अभी भी आपके खाते को सत्यापित करने के लिए एक व्यवस्थापक की प्रतीक्षा कर रहे हैं।",
     approved_description: "आपका खाता स्वीकृत है! अब माप और स्थानों को सिंक करने के लिए स्वतंत्र महसूस करें।",
-    rejected_description: "आपका खाता अस्वीकृत कर दिया गया है। अधिक जानने के लिए ___ @ ___ तक पहुंचें।",
+    rejected_description: "आपका खाता अस्वीकृत कर दिया गया है। अधिक जानने के लिए info@marvi.org.in तक पहुंचें।",
     formatSubtitlekey: (key: string) => { 
  switch (key) {
  case 'legacyResourceId': return "OldId";

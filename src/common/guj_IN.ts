@@ -171,7 +171,7 @@ const guj_IN: TranslationFile = {
     settings_pending_heading: "વિચારણા હેઠળ સાધનો સાચવો",
     new_resource_water_column_height: "ઊંડાઈ (મીટર):",
     pending_status_rejected: "તમારું એકાઉન્ટ સમાપ્ત થયું છે. જ્યાં સુધી કોઈ વ્યવસ્થાપક તમારા એકાઉન્ટને ઠીક નહીં કરે ત્યાં સુધી તમે કંઈપણ સાચવવામાં સમર્થ થશો નહીં.",
-    pending_status_unapproved: "તમારું એકાઉન્ટ હજી પણ મંજૂરીની રાહ જોઈ રહ્યું છે જો તે ખૂબ લાંબી છે, તો સમસ્યાને સુધારવા માટે ____ પર એડમિનિસ્ટ્રેટરનો સંપર્ક કરો.",
+    pending_status_unapproved: "તમારું એકાઉન્ટ હજી પણ મંજૂરીની રાહ જોઈ રહ્યું છે જો તે ખૂબ લાંબી છે, તો સમસ્યાને સુધારવા માટે info@marvi.org.in પર એડમિનિસ્ટ્રેટરનો સંપર્ક કરો.",
     pending_status_approved: "તમારું એકાઉન્ટ માન્ય છે! તમારું વાંચન અને સંસાધનો ટૂંક સમયમાં સમન્વયિત થશે, અથવા હવે તમે સમન્વયિત કરી શકો છો.",
     resource_detail_sync_required: "કોઈપણ રીડિંગને સાચવવા પહેલાં સ્થાન સમન્વયિત હોવું આવશ્યક છે.",
     about_html: "",
@@ -199,7 +199,7 @@ const guj_IN: TranslationFile = {
     rejected: "નામંજૂર",
     unapproved_description: "અમે હજી પણ વ્યવસ્થાપક માટે તમારું એકાઉન્ટ ચકાસવા માટે રાહ જોઈ રહ્યા છીએ.",
     approved_description: "તમારું એકાઉન્ટ માન્ય છે! હવે માપ અને સ્થાનોને સમન્વયિત કરવા માટે મફત લાગે.",
-    rejected_description: "તમારું એકાઉન્ટ નામંજૂર કરવામાં આવ્યું છે. વધુ જાણવા માટે, ___ @ ___ સુધી પહોંચો.",
+    rejected_description: "તમારું એકાઉન્ટ નામંજૂર કરવામાં આવ્યું છે. વધુ જાણવા માટે, info@marvi.org.in સુધી પહોંચો.",
     formatSubtitlekey: (key: string) => { 
  switch (key) {
  case 'legacyResourceId': return "OldId";
