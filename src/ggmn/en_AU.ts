@@ -47,6 +47,7 @@ const ggmn_en_AU: TranslationOverrideFile = {
     sync_screen_step_4_heading: "",
     sync_screen_step_4_body: "",
     sync_screen_help_body: "Just reach out to Claudia at",
+    sync_screen_send_email_button: "Send Email",
     sync_screen_step_5_heading: "",
     sync_screen_step_5_body: "",
     sync_screen_help_email: "claudia.ruz-vargas@un-igrac.org",

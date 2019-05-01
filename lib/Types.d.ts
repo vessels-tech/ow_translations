@@ -68,6 +68,7 @@ export declare type GGMNTranslationOverrideFile = {
         sync_screen_step_4_body: string;
         sync_screen_help_body: string;
         sync_screen_step_5_body: string;
+        sync_screen_send_email_button: string;
         sync_screen_help_email: string;
         sync_screen_help_end: string;
         recent_resource_none: string;

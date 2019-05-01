@@ -47,6 +47,7 @@ const ggmn_fr_FR: TranslationOverrideFile = {
     sync_screen_step_4_heading: "",
     sync_screen_step_4_body: "",
     sync_screen_help_body: "Contactez ____ via ____. Nous ferons de notre mieux pour vous aider.",
+    sync_screen_send_email_button: "Envoyer un courriel",
     sync_screen_step_5_heading: "",
     sync_screen_step_5_body: "",
     sync_screen_help_email: "claudia.ruz-vargas@un-igrac.org",
