@@ -10,6 +10,9 @@ NPM_VERSION_NUMBER := $(shell node ./tools/getVersionNumber.js)
 
 all: parse build push publish update
 
+install:
+	yarn
+
 build:
 	yarn run build
 

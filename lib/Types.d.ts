@@ -167,6 +167,7 @@ export declare type TranslationFile = {
         new_resource_lng: string;
         new_resource_asset_type_label: string;
         new_resource_owner_name_label: string;
+        new_resource_location_name_label: string;
         new_resource_submit_button: string;
         resource_detail_name_label: string;
         new_resource_id: string;
