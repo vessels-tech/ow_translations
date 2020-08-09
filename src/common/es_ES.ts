@@ -85,6 +85,7 @@ const es_ES: TranslationFile = {
     new_resource_lng: "Longitud",
     new_resource_asset_type_label: "Tipo de estación",
     new_resource_owner_name_label: "Nombre del propietario/a *",
+    new_resource_location_name_label: "Nom de la localisation*",
     new_resource_submit_button: "ENVIAR",
     resource_detail_name_label: "Nombre ",
     new_resource_id: "Código identificador",

@@ -85,6 +85,7 @@ const en_US: TranslationFile = {
     new_resource_lng: "Longitude",
     new_resource_asset_type_label: "Reading Location Type",
     new_resource_owner_name_label: "Owner Name*",
+    new_resource_location_name_label: "Location Name*",
     new_resource_submit_button: "SUBMIT",
     resource_detail_name_label: "Name:",
     new_resource_id: "Id",

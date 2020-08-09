@@ -85,6 +85,7 @@ const test_UPPER: TranslationFile = {
     new_resource_lng: "",
     new_resource_asset_type_label: "",
     new_resource_owner_name_label: "",
+    new_resource_location_name_label: "",
     new_resource_submit_button: "",
     resource_detail_name_label: "",
     new_resource_id: "",

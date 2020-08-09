@@ -85,6 +85,7 @@ const hi_IN: TranslationFile = {
     new_resource_lng: "देशान्तर",
     new_resource_asset_type_label: "रीडिंग स्थान का प्रकार",
     new_resource_owner_name_label: "मालिक का नाम*",
+    new_resource_location_name_label: "स्थान का नाम*",
     new_resource_submit_button: "जमा करें",
     resource_detail_name_label: "नाम:",
     new_resource_id: "आई डी",
