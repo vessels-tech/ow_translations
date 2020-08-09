@@ -38,4 +38,8 @@ update:
 	cd ${dir}/../ow_client && yarn add ow_translations
 	cd ${dir}/../ow_firebase/functions && yarn add ow_translations
 
+update-local:
+	cd ${dir}/../ow_client && yarn add ${dir} && \rm node_modules/ow_translations/.babelrc
+	cd ${dir}/../ow_firebase/functions && yarn add ${dir} && \rm node_modules/ow_translations/.babelrc
+
 .PHONY: build parse
