@@ -85,6 +85,7 @@ const guj_IN: TranslationFile = {
     new_resource_lng: "રેખાંશ",
     new_resource_asset_type_label: "વાંચન પ્રકાર પ્રકાર",
     new_resource_owner_name_label: "માલિકનું નામ *",
+    new_resource_location_name_label: "સ્થાન નામ *",
     new_resource_submit_button: "સબમિટ કરો",
     resource_detail_name_label: "નામ:",
     new_resource_id: "આઇડી",
